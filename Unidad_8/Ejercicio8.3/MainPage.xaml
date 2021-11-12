@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Ejercicio8._3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicio8._3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <Rectangle x:Name="Rojo" Fill="Red" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True"  Height="100" Width="100"/>
+        <Rectangle x:Name="Azul" Fill="Blue" RelativePanel.RightOf="Rojo" RelativePanel.AlignTopWithPanel="True" Height="100" Width="200"/>
+        <Rectangle x:Name="Verde" Fill="Green" RelativePanel.Below="Rojo" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWith="Azul" Height="100"/>
+        <Rectangle x:Name="Amarillo" Fill="Yellow" RelativePanel.RightOf="Rojo" RelativePanel.Below="Verde" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True"/>
+    </RelativePanel>
+</Page>

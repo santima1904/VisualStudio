@@ -1,0 +1,94 @@
+﻿<Page
+    x:Class="Ejercicio3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicio3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='2' x:Name="vsmGroup">
+                <VisualState x:ConnectionId='3' x:Name="vstPhone">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="stkMenu.Orientation" Value="Horizontal"/>
+                        <Setter Target="stkMenu.(RelativePanel.AlignBottomWithPanel)" Value="False"/>
+                        <Setter Target="stkMenu.(RelativePanel.AlignRightWithPanel)" Value="True"/>
+                        <Setter Target="stkMenu.(RelativePanel.Below)" Value="stkMenu"/>
+                        
+
+                        <Setter Target="img1.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img2.(Grid.Row)" Value="1"/>
+                        <Setter Target="img2.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img3.(Grid.Row)" Value="2"/>
+                        <Setter Target="img3.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img4.(Grid.Row)" Value="3"/>
+                        <Setter Target="img4.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img5.(Grid.Row)" Value="4"/>
+                        <Setter Target="img5.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img6.(Grid.Row)" Value="5"/>
+                        <Setter Target="img6.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img7.(Grid.Row)" Value="6"/>
+                        <Setter Target="img7.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img8.(Grid.Row)" Value="8"/>
+                        <Setter Target="img8.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="img9.(Grid.Row)" Value="9"/>
+                        <Setter Target="img9.(Grid.ColumnSpan)" Value="3"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='4' x:Name="vstDesktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="550"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="stkMenu.Orientation" Value="Vertical"/>
+                        <Setter Target="stkMenu.(RelativePanel.AlignBottomWithPanel)" Value="True"/>
+                        <Setter Target="stkMenu.(RelativePanel.AlignRightWithPanel)" Value="False"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <StackPanel x:ConnectionId='5' x:Name="stkMenu" Orientation="Vertical" RelativePanel.AlignTopWithPanel="True"
+                    RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" 
+                    RelativePanel.AlignRightWithPanel="False" Background="AliceBlue">
+            <AppBarButton Icon="Add" Label="Añadir"/>
+            <AppBarButton Icon="Go" Label="Ir"/>
+            <AppBarButton Icon="Target" Label="Objetivo"/>
+            <AppBarButton Icon="AddFriend" Label="Añadir"/>
+        </StackPanel>
+        <Grid x:ConnectionId='6' x:Name="grdImages" RelativePanel.RightOf="stkMenu" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignTopWithPanel="True"
+              RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="False" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image x:ConnectionId='7' x:Name="img1" Grid.Column="0" Grid.Row="0" Source="Assets//Images//Flogoprofen.jpg" Margin="10"/>
+            <Image x:ConnectionId='8' x:Name="img2" Grid.Column="1" Grid.Row="0" Source="Assets//Images//FOTO SANTIAGO.png" Margin="10"/>
+            <Image x:ConnectionId='9' x:Name="img3" Grid.Column="2" Grid.Row="0" Source="Assets//Images//gatoGorro.jpg" Margin="10"/>
+            <Image x:ConnectionId='10' x:Name="img4" Grid.Column="1" Grid.Row="1" Source="Assets//Images//IDEA 1 LOGO EMPRESA 1000px.png" Margin="10"/>
+            <Image x:ConnectionId='11' x:Name="img5" Grid.Column="0" Grid.Row="1" Source="Assets//Images//images.jpg" Margin="10"/>
+            <Image x:ConnectionId='12' x:Name="img6" Grid.Column="2" Grid.Row="1" Source="Assets//Images//marioKaRT.jpg" Margin="10"/>
+            <Image x:ConnectionId='13' x:Name="img7" Grid.Column="0" Grid.Row="2" Source="Assets//Images//oso-pato-anillo-natacion-gafas-sol_253952-155.jpg" Margin="10"/>
+            <Image x:ConnectionId='14' x:Name="img8" Grid.Column="1" Grid.Row="2" Source="Assets//Images//tejado-terminado-teja-nueva-rehabilitacion-tejados-vitoria.jpg" Margin="10"/>
+            <Image x:ConnectionId='15' x:Name="img9" Grid.Column="2" Grid.Row="2" Source="Assets//Images//unnamed.jpg" Margin="10"/>
+        </Grid>
+    </RelativePanel>
+</Page>
+

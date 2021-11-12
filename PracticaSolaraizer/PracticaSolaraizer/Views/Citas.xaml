@@ -1,0 +1,86 @@
+﻿<Page
+    x:Class="PracticaSolaraizer.Views.Citas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PracticaSolaraizer.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <Border x:Name="txbTitle" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Background="#F19314">
+            <RelativePanel>
+                <Button x:Name="btnSalir" VerticalAlignment="Center" Margin="20, 5, 10,0" Click="Button_Click" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignTopWithPanel="True">
+                    <FontIcon Glyph="&#xf3b1;"/>
+                </Button>
+                <TextBlock HorizontalAlignment="Center" FontSize="40" Foreground="#707070" Margin="0,0,30,10"
+                           RelativePanel.AlignRightWithPanel="True" RelativePanel.RightOf="btnSalir" RelativePanel.AlignTopWithPanel="True">
+                    Citas previas
+                </TextBlock>
+            </RelativePanel>
+        </Border>
+        <ScrollViewer HorizontalAlignment="Center" RelativePanel.Below="txbTitle" RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" VerticalAlignment="Center"
+                      VerticalScrollBarVisibility="Visible">
+            <ListView x:Name="lstLista" ItemClick="lstLista_ItemClick" IsItemClickEnabled="True">
+                <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                </Grid>
+                <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                </Grid>
+                <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                </Grid>
+                <Grid BorderBrush="#F19314" BorderThickness="1" Margin="20" Padding="10" MinWidth="250" MinHeight="80">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Santiago"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Martínez Aral"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Calle Mallén, n9" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="678543261" HorizontalAlignment="Right"/>
+                </Grid>
+            </ListView>
+        </ScrollViewer>
+    </RelativePanel>
+</Page>

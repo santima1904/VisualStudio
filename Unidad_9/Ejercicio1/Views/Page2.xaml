@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Ejercicio1.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicio1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <AppBarButton Icon="Back" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" Click="AppBarButton_Click"/>
+        <NavigationView RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Video" Content="Video" Tag="Video" Tapped="NavigationViewItem_Tapped"/>
+                <NavigationViewItem Icon="FontColor" Content="Colorines" Tag="Colorines" Tapped="NavigationViewItem_Tapped_1"/>
+            </NavigationView.MenuItems>
+            <Frame x:Name="contentFrame" />
+        </NavigationView>
+    </RelativePanel>
+</Page>

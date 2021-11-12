@@ -1,0 +1,12 @@
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\bin\Debug\netstandard2.1\DAL.deps.json
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\bin\Debug\netstandard2.1\DAL.dll
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\bin\Debug\netstandard2.1\DAL.pdb
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\bin\Debug\netstandard2.1\Entidades.dll
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\bin\Debug\netstandard2.1\Entidades.pdb
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\obj\Debug\netstandard2.1\DAL.csproj.AssemblyReference.cache
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\obj\Debug\netstandard2.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\obj\Debug\netstandard2.1\DAL.AssemblyInfoInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\obj\Debug\netstandard2.1\DAL.AssemblyInfo.cs
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\obj\Debug\netstandard2.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\obj\Debug\netstandard2.1\DAL.dll
+C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\DAL\obj\Debug\netstandard2.1\DAL.pdb

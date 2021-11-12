@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="Ejercicio8._4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicio8._4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Orientation="Vertical" >
+            <Border BorderBrush="Black" BorderThickness="2" Margin="20, 20, 20, 10">
+                <TextBlock Padding="20">Titulo increible y maravilloso</TextBlock>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="2" Margin="20, 0, 20, 20">
+                <TextBlock TextWrapping="Wrap" Padding="20">Utensilio portátil para resguardarse de la lluvia que consiste en un bastón en uno de cuyos extremos se articulan unas varillas, generalmente metálicas, que permiten extender o plegar una tela impermeable que las cubre.</TextBlock>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="2" Margin="20, 0, 20, 20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <VariableSizedWrapGrid Orientation="Horizontal" Grid.Column="0" MinHeight="100" MinWidth="100" Margin="20" Grid.RowSpan="4">
+                        <Rectangle Fill="Orange" Height="100" Width="100" Margin="20, 20"></Rectangle>
+                        <Rectangle Fill="Blue" Height="100" Width="100"  Margin="20, 10"></Rectangle>
+                        <Rectangle Fill="Green" Height="100" Width="100"  Margin="20, 10"></Rectangle>
+                    </VariableSizedWrapGrid>
+                    
+                    <Border BorderBrush="Black" BorderThickness="2" Margin="20, 20, 20, 20" Grid.Column="1" Grid.Row="0">
+                         <TextBlock TextWrapping="Wrap" MinHeight="100" MinWidth="100" Padding="20">Utensilio portátil para resguardarse de la lluvia que consiste en un bastón en uno de cuyos extremos se articulan unas varillas, generalmente metálicas, que permiten extender o plegar una tela impermeable que las cubre.</TextBlock>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="2" Margin="20, 0, 20, 20"  Grid.Column="1" Grid.Row="1">
+                         <TextBlock TextWrapping="Wrap" MinHeight="100" MinWidth="100" Padding="20">Utensilio portátil para resguardarse de la lluvia que consiste en un bastón en uno de cuyos extremos se articulan unas varillas, generalmente metálicas, que permiten extender o plegar una tela impermeable que las cubre.</TextBlock>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="2" Margin="20, 0, 20, 20"  Grid.Column="1" Grid.Row="2">
+                         <TextBlock TextWrapping="Wrap" MinHeight="100" MinWidth="100" Padding="20">Utensilio portátil para resguardarse de la lluvia que consiste en un bastón en uno de cuyos extremos se articulan unas varillas, generalmente metálicas, que permiten extender o plegar una tela impermeable que las cubre.</TextBlock>
+                    </Border>
+                    <Border BorderBrush="Black" BorderThickness="2" Margin="20, 0, 20, 20"  Grid.Column="1" Grid.Row="3">
+                         <TextBlock TextWrapping="Wrap" MinHeight="100" MinWidth="100" Padding="20">Utensilio portátil para resguardarse de la lluvia que consiste en un bastón en uno de cuyos extremos se articulan unas varillas, generalmente metálicas, que permiten extender o plegar una tela impermeable que las cubre.</TextBlock>
+                    </Border>
+
+                </Grid>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="2" Margin="20, 0, 20, 10">
+                <TextBlock MinHeight="20" MinWidth="100"></TextBlock>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Ejercicio2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicio2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:Ejercicio2.ViewModels"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <vm:Ejercicio2.ViewModels/>
+    </Page.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Right" VerticalAlignment="Center">Nombre:</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Right" VerticalAlignment="Center">Apellidos:</TextBlock>
+        <TextBox x:Name="txbNombre" Text="{Binding OPersona.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Grid.Column="1" Margin="10"/>
+        <TextBox x:Name="txbNombre2" Text="{Binding ElementName=txbNombre, Path=Text, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" Margin="10"/>
+        <TextBox x:Name="txbApellidos" Text="{Binding OPersona.Apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1" Margin="10"/>
+    </Grid>
+</Page>

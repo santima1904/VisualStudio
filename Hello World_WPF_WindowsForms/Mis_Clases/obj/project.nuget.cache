@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5kb2nJ39j9nE0uasn9yEe6WPhvnhtii0XfLELK7iG4GQU6XiEbtj2ccfwqnKu+KCeDicxeVP1NWktV/U+mxZ+w==",
+  "success": true,
+  "projectFilePath": "D:\\ProyectosSanti\\DEINT\\VisualStudio\\Hello World_WPF_WindowsForms\\Mis_Clases\\Mis_Clases.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\bin\Debug\01_Hello World_WPF_CSharp.exe.config
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\bin\Debug\01_Hello World_WPF_CSharp.exe
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\bin\Debug\01_Hello World_WPF_CSharp.pdb
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp.csprojAssemblyReference.cache
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\MainWindow.g.cs
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\App.g.cs
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp_MarkupCompile.cache
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp_MarkupCompile.lref
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\MainWindow.baml
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp.g.resources
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\_01_Hello_World_WPF_CSharp.Properties.Resources.resources
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp.csproj.GenerateResource.cache
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp.csproj.CoreCompileInputs.cache
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp.exe
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp.pdb
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\bin\Debug\Mis_Clases.dll
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\bin\Debug\Mis_Clases.pdb
+D:\ProyectosSanti\DEINT\Hello World_WPF_WindowsForms\01_Hello World_WPF_CSharp\obj\Debug\01_Hello World_WPF_CSharp.csproj.CopyComplete

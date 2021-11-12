@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="Ejercicio8._5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicio8._5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+        <CommandBar x:Name="cmbBarraArriba" OverflowButtonVisibility="Collapsed"  Background="Transparent" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="20" HorizontalAlignment="Left">
+            <AppBarButton Icon="Accept"/>
+            <AppBarButton Icon="Delete"/>
+            <AppBarButton Icon="Download"/>
+            <AppBarButton Icon="Find"/>
+        </CommandBar>
+        <ScrollViewer x:Name="lstNombre" VerticalScrollBarVisibility="Visible" RelativePanel.AlignLeftWithPanel="True" RelativePanel.Below="cmbBarraArriba" RelativePanel.Above="cmbBarraAbajo" Margin="0, 30">
+            <ListView  Margin="0, 30" Padding="20" VerticalAlignment="Center" HorizontalAlignment="Left">
+                
+            </ListView>
+        </ScrollViewer>
+        <CommandBar x:Name="cmbBarraAbajo" OverflowButtonVisibility="Collapsed" Background="Transparent" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" HorizontalAlignment="Left" Margin="90, 10, 20, 20">
+            <AppBarButton Icon="Back"/>
+            <AppBarButton Icon="Forward"/>
+        </CommandBar>
+        <AppBarButton Icon="Add" Label="Añadir" RelativePanel.Above="cmbBarraAbajo" RelativePanel.RightOf="lstNombre"/>
+    </RelativePanel>
+</Page>
