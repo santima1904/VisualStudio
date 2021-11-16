@@ -8355,7 +8355,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\smartinez\\.nuget\\packages\\": {},
+    "C:\\Users\\TESTER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
@@ -8363,11 +8363,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
+      "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
       "projectName": "Ejercicio2_UI",
-      "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
-      "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad11\\Ejercicio2_UI\\obj\\",
+      "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
+      "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8376,7 +8376,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -8391,11 +8391,11 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad11\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad11\\DAL\\DAL.csproj"
+            "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad11\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad11\\Entidades\\Entidades.csproj"
+            "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj"
             }
           }
         }

@@ -8,3 +8,12 @@ C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\Entidades\obj\Debug\net
 C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.dll
 C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
