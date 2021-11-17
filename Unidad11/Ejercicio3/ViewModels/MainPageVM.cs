@@ -26,11 +26,20 @@ namespace Ejercicio3.ViewModels
         }
 
         public ObservableCollection<clsPersona> ListaPersonas { get => listaPersonas; set => listaPersonas = value; }
-        public clsPersona OpersonaSeleccionada { get => opersonaSeleccionada; set => opersonaSeleccionada = value; }
+        public clsPersona OpersonaSeleccionada
+        {
+            get => opersonaSeleccionada;
+
+            set
+            {
+                opersonaSeleccionada = value;
+                borrarCommand.RaiseCanExecuteChanged();
+            }
+        }
         public DelegateCommand BorrarCommand 
         { 
             get {
-                DelegateCommand delegateCommand = new DelegateCommand(BorrarCommand_Executed, PuedeEjercutar);
+                borrarCommand = new DelegateCommand(BorrarCommand_Executed, PuedeEjercutar);
                 return borrarCommand; 
             }
             set => borrarCommand = value; 

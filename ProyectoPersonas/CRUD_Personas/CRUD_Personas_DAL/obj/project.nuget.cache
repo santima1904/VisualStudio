@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xPBqYIzPgEXOdRJrRU8MU+8wR7Ht7qlrN4cW/a3csML4mPYC3HjAx/OwiclaEV+3KIVbpUoSi3I6ARWc4emX4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ProyectoPersonas\\CRUD_Personas\\CRUD_Personas_DAL\\CRUD_Personas_DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -14,8 +14,16 @@
     </Page.DataContext>
 
     <StackPanel>
+        <MenuBar>
+            <MenuBarItem>
+                <MenuFlyoutItem Text="Eliminar" Command="{Binding BorrarCommand}"/>
+            </MenuBarItem>
+        </MenuBar>
         <AppBarButton Icon="Delete" Command="{Binding BorrarCommand, UpdateSourceTrigger=PropertyChanged}"/>
-        <ListView x:ConnectionId='2' x:Name="lstPersonas" ItemsSource="{Binding ListaPersonas, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsItemClickEnabled="True" SelectedItem="{Binding OpersonaSeleccionada, Mode=TwoWay}">
+        <ListView x:ConnectionId='2' x:Name="lstPersonas" ItemsSource="{Binding ListaPersonas, Mode=TwoWay,
+            UpdateSourceTrigger=PropertyChanged}" IsItemClickEnabled="True" 
+                  SelectedItem="{Binding OpersonaSeleccionada, Mode=TwoWay}"
+                                                       >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -24,6 +32,11 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <ListView.Resources>
+                <MenuFlyout x:ConnectionId='4' x:Name="MenuFlyout">
+                    <MenuFlyoutItem Text="Eliminar" Command="{Binding BorrarCommand}"/>
+                </MenuFlyout>
+            </ListView.Resources>
         </ListView>
     </StackPanel>
 </Page>

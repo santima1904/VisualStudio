@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-2BC74AF8</Machine>
-    <WindowsUser>TESTER</WindowsUser>
+    <Machine>107-12</Machine>
+    <WindowsUser>smartinez</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e7429960-93a4-45c6-ad93-6e7a38bdd266</PackageIdentityName>
     <PackageIdentityPublisher>CN=TESTER</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F280D41608A44252E342103F648F1BD7A126CEF0DE4C61D5EF857E2DFC311C7C</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2881CE9DA299DFB1F09DCFB123B63A7B7D4558C45CE19989E3041BAA4EC292D1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e7429960-93a4-45c6-ad93-6e7a38bdd266_1.0.0.0_x86__sv647z9hw2app</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e7429960-93a4-45c6-ad93-6e7a38bdd266_sv647z9hw2app!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e7429960-93a4-45c6-ad93-6e7a38bdd266</RegisteredPackageID>
@@ -27,94 +27,94 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-16T18:45:18.087</Modified>
+      <Modified>2021-11-17T12:15:05.493</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Ejercicio3.exe">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Ejercicio3.exe">
       <PackagePath>entrypoint\Ejercicio3.exe</PackagePath>
-      <Modified>2021-11-16T18:45:17.671</Modified>
+      <Modified>2021-11-17T12:15:04.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-04T23:15:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\DAL\bin\Debug\netstandard2.0\DAL.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\DAL\bin\Debug\netstandard2.0\DAL.dll">
       <PackagePath>DAL.dll</PackagePath>
-      <Modified>2021-11-16T18:08:35.624</Modified>
+      <Modified>2021-11-17T10:46:39.752</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Entidades\bin\Debug\netstandard2.0\Entidades.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Entidades\bin\Debug\netstandard2.0\Entidades.dll">
       <PackagePath>Entidades.dll</PackagePath>
-      <Modified>2021-11-16T18:08:35.207</Modified>
+      <Modified>2021-11-17T10:46:39.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-11-16T18:14:20.646</Modified>
+      <Modified>2021-11-17T10:45:41.097</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-09-25T10:44:15.765</Modified>
+      <Modified>2021-11-17T10:45:40.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.769</Modified>
+      <Modified>2021-11-17T10:45:40.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.770</Modified>
+      <Modified>2021-11-17T10:45:40.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.771</Modified>
+      <Modified>2021-11-17T10:45:40.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.773</Modified>
+      <Modified>2021-11-17T10:45:40.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.776</Modified>
+      <Modified>2021-11-17T10:45:40.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-25T10:44:15.776</Modified>
+      <Modified>2021-11-17T10:45:40.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Ejercicio3.xr.xml">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Ejercicio3.xr.xml">
       <PackagePath>Ejercicio3.xr.xml</PackagePath>
-      <Modified>2021-11-16T18:40:41.109</Modified>
+      <Modified>2021-11-17T11:57:58.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-16T18:45:17.604</Modified>
+      <Modified>2021-11-17T12:15:04.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-11-16T18:45:17.604</Modified>
+      <Modified>2021-11-17T12:15:04.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-16T18:31:51.268</Modified>
+      <Modified>2021-11-17T11:24:12.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Core\Ejercicio3.exe">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad11\Ejercicio3\bin\x86\Debug\Core\Ejercicio3.exe">
       <PackagePath>Ejercicio3.exe</PackagePath>
-      <Modified>2021-11-16T18:45:18.083</Modified>
+      <Modified>2021-11-17T12:15:05.490</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -174,36 +174,36 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.30035.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.30035.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.30035.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.29231.0</Version>
+      <Version>14.0.30035.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

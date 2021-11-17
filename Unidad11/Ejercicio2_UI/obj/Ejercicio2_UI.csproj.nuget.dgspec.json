@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj": {}
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj": {
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -34,8 +34,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj"
+              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -67,18 +67,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj": {
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
+        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
         "projectName": "Ejercicio2_UI",
-        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
-        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Ejercicio2_UI\\obj\\",
+        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Ejercicio2_UI\\Ejercicio2_UI.csproj",
+        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Ejercicio2_UI\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -87,7 +87,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -102,11 +102,11 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj"
+              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj"
+              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -151,21 +151,21 @@
         }
       }
     },
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -210,7 +210,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

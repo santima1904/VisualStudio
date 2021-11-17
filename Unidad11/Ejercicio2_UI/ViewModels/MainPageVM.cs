@@ -33,8 +33,7 @@ namespace Ejercicio2_UI.ViewModels
             set
             {
                 txbContent = value;
-                NotifyPropertyChanged("txbContent");
-                PuedeEjercutar();
+                NotifyPropertyChanged("TxbContent");
                 buscarCommand.RaiseCanExecuteChanged();
             }
         }
@@ -47,20 +46,21 @@ namespace Ejercicio2_UI.ViewModels
 
         private void BuscarCommand_Executed()
         {
-            listaPersonasOfrecido = new ObservableCollection<clsPersona>(from p in listaPersonasOfrecido
-                                                                         where p.Nombre.Contains(txbContent) || p.Apellidos.Contains(txbContent) 
+            listaPersonasOfrecido = new ObservableCollection<clsPersona>(from p in listaPersonasCompleto
+                                                                         where p.Nombre.ToLower().Contains(txbContent.ToLower()) || p.Apellidos.ToLower().Contains(txbContent.ToLower()) 
                                                                          select p);
-            NotifyPropertyChanged("listaPersonasOfrecido");
-           
+            NotifyPropertyChanged("ListaPersonasOfrecido");
         }
 
         private bool PuedeEjercutar()
         {
-            bool valido = false;
+            bool valido = true;
 
-            if (!String.IsNullOrEmpty(txbContent))
+            if (String.IsNullOrEmpty(txbContent))//aprovecho que hago la comprobación de si es nulo el textbox para eso
             {
-                valido = true;
+                valido = false;
+                listaPersonasOfrecido = listaPersonasCompleto;
+                NotifyPropertyChanged("ListaPersonasOfrecido");
             }
             return valido;
         }

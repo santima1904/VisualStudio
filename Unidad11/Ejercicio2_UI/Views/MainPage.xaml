@@ -22,8 +22,7 @@
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
-       
+        
         <AppBarButton Icon="Find" Grid.Row="0" Grid.Column="1" Command="{Binding BuscarCommand1}"/>
         <TextBox Grid.Row="0" Grid.Column="0" Text="{Binding TxbContent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
         <ListView x:Name="lstPersonas" ItemsSource="{Binding ListaPersonasOfrecido}" Grid.ColumnSpan="2" Grid.Row="1">

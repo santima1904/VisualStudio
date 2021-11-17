@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Ejercicio3.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Unidad11.Entidades;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +27,14 @@ namespace Ejercicio3
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void lstPersonas_RightTapped(object sender, RightTappedRoutedEventArgs e)
+        {
+            ListView listView = (ListView)sender;
+
+            listView.SelectedItem = (clsPersona)(e.OriginalSource as FrameworkElement).DataContext;
+            MenuFlyout.ShowAt(listView, e.GetPosition(listView));
         }
     }
 }
