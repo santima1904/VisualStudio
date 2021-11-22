@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6adeaf58-78b1-4353-b45e-9cfd179642fe": {
+      "ProjectGuid": "6adeaf58-78b1-4353-b45e-9cfd179642fe",
+      "DisplayName": "CRUD_Personas_UWP",
+      "ColorIndex": 0
+    },
+    "c6f550c5-1b68-49a2-a029-e21b8317cafc": {
+      "ProjectGuid": "c6f550c5-1b68-49a2-a029-e21b8317cafc",
+      "DisplayName": "CRUD_Personas_Entidades",
+      "ColorIndex": 1
+    },
+    "c02aa7f3-b542-4e18-b29e-ad32f8076ab8": {
+      "ProjectGuid": "c02aa7f3-b542-4e18-b29e-ad32f8076ab8",
+      "DisplayName": "CRUD_Personas_DAL",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
