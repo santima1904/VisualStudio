@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data.SqlClient;
-using System.Text;
 using CRUD_Personas_DAL.Conexion;
 using CRUD_Personas_Entidades;
 
@@ -12,13 +10,13 @@ namespace CRUD_Personas_DAL.Listado
     {
 
         /// <summary>
-        /// <cadecera>public ObservableCollection(clsPersona) obtenerListadoPersonasCompleto_DAL()</cadecera>
+        /// <cadecera>public static ObservableCollection(clsPersona) obtenerListadoPersonasCompleto_DAL()</cadecera>
         /// <descripcion>Método para recoger una lista de personas de la base de datos</descripcion>
         /// <precondiciones>Ninguna</precondiciones>
         /// <postcondiciones>lista devuelta</postcondiciones>
         /// </summary>
         /// <returns>ObservableCollection(clsPersona)</returns>
-        public ObservableCollection<clsPersona> obtenerListadoPersonasCompleto_DAL()
+        public static ObservableCollection<clsPersona> obtenerListadoPersonasCompleto_DAL()
         {
             ObservableCollection<clsPersona> listado = new ObservableCollection<clsPersona>();
             clsMyConnection miConexion = new clsMyConnection();
