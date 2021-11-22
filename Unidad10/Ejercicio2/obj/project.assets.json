@@ -8167,11 +8167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad10\\Ejercicio2\\Ejercicio2.csproj",
+      "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad10\\Ejercicio2\\Ejercicio2.csproj",
       "projectName": "Ejercicio2",
-      "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad10\\Ejercicio2\\Ejercicio2.csproj",
+      "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad10\\Ejercicio2\\Ejercicio2.csproj",
       "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad10\\Ejercicio2\\obj\\",
+      "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad10\\Ejercicio2\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

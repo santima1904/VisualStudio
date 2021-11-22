@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ae4fe74b-0abb-4fd3-9d15-a058cbdfdf51</PackageIdentityName>
     <PackageIdentityPublisher>CN=smartinez</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>8B0E862D9847B9174A848C022151770DDCC89E702D70734F7BEFE49B97778D70</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>60A0C56B5BF945ADB1A35AB437A628F04BDF189170B1CE9032004D959C666A42</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ae4fe74b-0abb-4fd3-9d15-a058cbdfdf51_1.0.0.0_x86__2cyxs4py2y0vg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ae4fe74b-0abb-4fd3-9d15-a058cbdfdf51_2cyxs4py2y0vg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ae4fe74b-0abb-4fd3-9d15-a058cbdfdf51</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-25T09:54:25.271</Modified>
+      <Modified>2021-11-22T12:13:42.898</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Ejercicio1.exe">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Ejercicio1.exe">
       <PackagePath>entrypoint\Ejercicio1.exe</PackagePath>
-      <Modified>2021-10-25T09:54:23.936</Modified>
+      <Modified>2021-11-22T12:13:41.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,83 +46,83 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\Bob esponja bailando el remix de fabuloso.mp4">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\Bob esponja bailando el remix de fabuloso.mp4">
       <PackagePath>Assets\Bob esponja bailando el remix de fabuloso.mp4</PackagePath>
       <Modified>2021-10-22T08:21:10.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-10-20T10:28:40.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-10-08T09:23:17.721</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-10-08T09:23:17.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-10-08T09:23:17.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-10-08T09:23:17.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-10-08T09:23:17.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-10-08T09:23:17.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-10-08T09:23:17.726</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Ejercicio1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Ejercicio1.xr.xml">
       <PackagePath>Ejercicio1.xr.xml</PackagePath>
       <Modified>2021-10-22T10:33:43.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-10-25T09:54:23.857</Modified>
+      <Modified>2021-11-22T12:13:41.557</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Colorines.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Colorines.xbf">
       <PackagePath>Views\Colorines.xbf</PackagePath>
-      <Modified>2021-10-25T09:54:23.857</Modified>
+      <Modified>2021-11-22T12:13:41.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-10-25T09:54:23.857</Modified>
+      <Modified>2021-11-22T12:13:41.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Page2.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Page2.xbf">
       <PackagePath>Views\Page2.xbf</PackagePath>
-      <Modified>2021-10-25T09:54:23.857</Modified>
+      <Modified>2021-11-22T12:13:41.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Video.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Views\Video.xbf">
       <PackagePath>Views\Video.xbf</PackagePath>
-      <Modified>2021-10-25T09:54:23.857</Modified>
+      <Modified>2021-11-22T12:13:41.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-10-25T09:54:24.209</Modified>
+      <Modified>2021-11-22T12:13:41.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\DEINT\VS\Unidad_9\Ejercicio1\bin\x86\Debug\Core\Ejercicio1.exe">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Unidad_9\Ejercicio1\bin\x86\Debug\Core\Ejercicio1.exe">
       <PackagePath>Ejercicio1.exe</PackagePath>
-      <Modified>2021-10-25T09:54:25.262</Modified>
+      <Modified>2021-11-22T12:13:42.890</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

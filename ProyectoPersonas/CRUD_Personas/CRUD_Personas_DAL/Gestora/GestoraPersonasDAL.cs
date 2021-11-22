@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 
 namespace CRUD_Personas_DAL.Gestora
 {
+    //TODO trato de excepciones
     public class GestoraPersonasDAL
     {
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj": {}
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj": {
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj",
+        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj",
         "projectName": "Ejercicio3",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj",
+        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad_9\\Ejercicio3\\Ejercicio3.csproj",
         "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\DEINT\\VS\\Unidad_9\\Ejercicio3\\obj\\",
+        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad_9\\Ejercicio3\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

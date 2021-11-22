@@ -8,7 +8,44 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    
+    
+    <RelativePanel>
+        <ListView x:Name="lstLista" ItemsSource="{Binding List, Mode=TwoWay}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay}" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Nombre, Mode=TwoWay}" Margin="10, 0"/>
+                        <TextBlock Text="{Binding Apellidos, Mode=TwoWay}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid x:Name="grdFormulario" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.RightOf="lstLista" Background="#FFDAB5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
 
-    </Grid>
+            <TextBlock Grid.Row="0" Grid.Column="0" Margin="10">Nombre:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Margin="10">Apellidos:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Margin="10">Fecha de nacimiento:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" Margin="10">Teléfono:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0" Margin="10">Dirección:</TextBlock>
+
+            <TextBox x:Name="txbNombre" Grid.Row="0" Grid.Column="1" Text="{Binding PersonaSeleccionada.Nombre, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Text="{Binding PersonaSeleccionada.Apellidos, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Text="{Binding PersonaSeleccionada.FechaNacimiento, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Text="{Binding PersonaSeleccionada.Telefono, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Text="{Binding PersonaSeleccionada.Direccion, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+        </Grid>
+    </RelativePanel>
 </Page>

@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 
 namespace CRUD_Personas_DAL.Listado
 {
+    //TODO trato de excepciones
     public class clsListadoDepartamentosDAL
     {
         /// <summary>

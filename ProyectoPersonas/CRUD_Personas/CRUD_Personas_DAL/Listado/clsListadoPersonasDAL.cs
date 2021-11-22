@@ -6,6 +6,7 @@ using CRUD_Personas_Entidades;
 
 namespace CRUD_Personas_DAL.Listado
 {
+    //TODO trato de excepciones
     public class clsListadoPersonasDAL
     {
 
