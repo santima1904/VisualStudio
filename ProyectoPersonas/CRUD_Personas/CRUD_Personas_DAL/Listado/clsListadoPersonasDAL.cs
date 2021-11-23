@@ -49,5 +49,34 @@ namespace CRUD_Personas_DAL.Listado
 
             return listado;
         }
+
+        public static clsPersona obtenerPersona(int id)
+        {
+            clsPersona oPersona = new clsPersona();
+            clsMyConnection miConexion = new clsMyConnection();
+            SqlConnection connection = miConexion.getConnection();
+            SqlCommand miComando = new SqlCommand();
+            SqlDataReader miLector;
+            miComando.CommandText = "SELECT * FROM Cliente  WHERE id = "+id;
+            miComando.Connection = connection;
+            miLector = miComando.ExecuteReader();
+
+            if (miLector.HasRows)
+            {
+                miLector.Read();
+                    oPersona.Id = (int)miLector["IDPersona"];
+                    oPersona.Nombre = (string)miLector["nombrePersona"];
+                    oPersona.Apellidos = (string)miLector["apellidosPersona"];
+                    oPersona.FechaNac = (DateTime)miLector["fechaNacimiento"];
+                    oPersona.Telefono = (string)miLector["telefono"];
+                    oPersona.Direccion = (string)miLector["direccion"];
+                    oPersona.Foto = (string)miLector["Foto"];
+                    oPersona.IdDepartamento = (int)miLector["IDDepartamento"];
+            }
+            miLector.Close();
+            miConexion.closeConnection(ref connection);
+
+            return oPersona;
+        }
     }
 }

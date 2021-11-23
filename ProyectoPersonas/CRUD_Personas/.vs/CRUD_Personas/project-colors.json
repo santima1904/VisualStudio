@@ -15,7 +15,17 @@
       "ProjectGuid": "c02aa7f3-b542-4e18-b29e-ad32f8076ab8",
       "DisplayName": "CRUD_Personas_DAL",
       "ColorIndex": 2
+    },
+    "17bfb551-4530-4cb2-85d5-77b7b6765127": {
+      "ProjectGuid": "17bfb551-4530-4cb2-85d5-77b7b6765127",
+      "DisplayName": "CRUD_Personas_ASP",
+      "ColorIndex": 3
+    },
+    "38626a3d-0d09-4bee-946f-8a932252078e": {
+      "ProjectGuid": "38626a3d-0d09-4bee-946f-8a932252078e",
+      "DisplayName": "CRUD_Personas_BL",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
