@@ -1,0 +1,10 @@
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\bin\Debug\netstandard2.0\CRUD_Personas_Entidades.deps.json
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\bin\Debug\netstandard2.0\CRUD_Personas_Entidades.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\bin\Debug\netstandard2.0\CRUD_Personas_Entidades.pdb
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.csproj.AssemblyReference.cache
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.AssemblyInfoInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.AssemblyInfo.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.pdb

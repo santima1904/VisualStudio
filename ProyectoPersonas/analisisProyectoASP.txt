@@ -1,0 +1,65 @@
+Capa Entidades:
+	- clsPersona
+	- Departamento
+
+Capa DAL:
+	Conexion:
+		- clsMyConnection. getConnection()
+	
+	Listado:
+		- ListadoPersonasDAL. 
+			- List<clsPersona> obtenerListadoPersonasDAL()
+			- clsPersona obtenerPersonaDAL(int id)
+
+		- ListadoDepartamentoDAL. 
+			- obtenerListadoDepartamentoDAL()
+			- obtenerDepartamentoDAL()
+
+	Gestora:
+		- GestoraPersonaDAL. 
+			- insertarPersonaDAL()
+			- editarPersonaDAL()
+			- borrarPersonaDAL()
+
+		- GestoraDepartamentoDAL. 
+			- insertarDepartamentoDAL()
+			- editarDepartamentoDAL()
+			- borrarDepartamentoDAL()
+
+Capa BL:
+	Listado:
+		- ListadoPersonasBL. 
+			- obtenerListadoPersonasBL()
+			- obtenerPersonaBL()
+
+		- ListadoDepartamentoBL. 
+			- obtenerListadoDepartamentoBL()
+			- obtenerDepartamentoBL()
+
+	Gestora:
+		- GestoraPersonaBL. 
+			- insertarPersonaBL()
+			- editarPersonaBL()
+			- borrarPersonaBL()
+
+		- GestoraDepartamentoBL. 
+			- insertarDepartamentoBL()
+			- editarDepartamentoBL()
+			- borrarDepartamentoBL()
+
+Capa UI:
+	Models:
+		- clsPersonaConNombreDepartamento -> hereda de clsPersona,  string nombreDepartamento
+		- clsPersonaConListadoDepartamento -> hereda de clsPersona,  List<Departamento> listadoDepartamento 
+	Views:
+		- Index
+		- Edit
+		- Details
+		- Delete
+		- Error
+
+	Controllers:
+		- Personas
+		- HomeController
+
+ 

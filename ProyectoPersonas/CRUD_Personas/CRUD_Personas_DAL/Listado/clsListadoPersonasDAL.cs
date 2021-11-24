@@ -1,31 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data.SqlClient;
-using System.Text;
 using CRUD_Personas_DAL.Conexion;
 using CRUD_Personas_Entidades;
 
 namespace CRUD_Personas_DAL.Listado
 {
+    //TODO trato de excepciones
     public class clsListadoPersonasDAL
     {
 
         /// <summary>
-        /// <cadecera>public ObservableCollection(clsPersona) obtenerListadoPersonasCompleto_DAL()</cadecera>
+        /// <cadecera>public static ObservableCollection(clsPersona) obtenerListadoPersonasCompleto_DAL()</cadecera>
         /// <descripcion>Método para recoger una lista de personas de la base de datos</descripcion>
         /// <precondiciones>Ninguna</precondiciones>
         /// <postcondiciones>lista devuelta</postcondiciones>
         /// </summary>
         /// <returns>ObservableCollection(clsPersona)</returns>
-        public ObservableCollection<clsPersona> obtenerListadoPersonasCompleto_DAL()
+        public static ObservableCollection<clsPersona> obtenerListadoPersonasCompleto_DAL()
         {
             ObservableCollection<clsPersona> listado = new ObservableCollection<clsPersona>();
             clsMyConnection miConexion = new clsMyConnection();
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
             SqlDataReader miLector;
-            miComando.CommandText = "SELECT * FROM Cliente";
+            miComando.CommandText = "SELECT * FROM Personas";
             miComando.Connection = connection;
             miLector = miComando.ExecuteReader();
 
@@ -49,6 +48,40 @@ namespace CRUD_Personas_DAL.Listado
             miConexion.closeConnection(ref connection);
 
             return listado;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static clsPersona obtenerPersona(int id)
+        {
+            clsPersona oPersona = new clsPersona();
+            clsMyConnection miConexion = new clsMyConnection();
+            SqlConnection connection = miConexion.getConnection();
+            SqlCommand miComando = new SqlCommand();
+            SqlDataReader miLector;
+            miComando.CommandText = "SELECT * FROM Personas  WHERE IDPersona = "+id;
+            miComando.Connection = connection;
+            miLector = miComando.ExecuteReader();
+
+            if (miLector.HasRows)
+            {
+                miLector.Read();
+                    oPersona.Id = (int)miLector["IDPersona"];
+                    oPersona.Nombre = (string)miLector["nombrePersona"];
+                    oPersona.Apellidos = (string)miLector["apellidosPersona"];
+                    oPersona.FechaNac = (DateTime)miLector["fechaNacimiento"];
+                    oPersona.Telefono = (string)miLector["telefono"];
+                    oPersona.Direccion = (string)miLector["direccion"];
+                    oPersona.Foto = (string)miLector["Foto"];
+                    oPersona.IdDepartamento = (int)miLector["IDDepartamento"];
+            }
+            miLector.Close();
+            miConexion.closeConnection(ref connection);
+
+            return oPersona;
         }
     }
 }
