@@ -51,7 +51,6 @@ namespace CRUD_Personas_DAL.Gestora
             miComando.Parameters.Add("@direccion", System.Data.SqlDbType.NVarChar).Value = direccion;
             miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = iddepartamento;
             miComando.Parameters.Add("@foto", System.Data.SqlDbType.NVarChar).Value = foto;
-
             miComando.CommandText = "INSERT INTO Personas VALUES(@nombre, @apellidos, @fechaNac, @telefono, @direccion, @iddepartamento, @foto)";
             miComando.Connection = connection;
             resultado = miComando.ExecuteNonQuery();

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/IEIABrkkeilZkOCBlfzrKFz8KkJwAv+0cRxsTEiWzfyUkhz4roBEeTUxt2LtiU9BU59Xv2FELFl2/4ee4irJg==",
+  "dgSpecHash": "KmFTlF1OqS9hAMipx4+06oc1bPTQFacjy23B6VUqLp6ioGqhZ9x6zDhUwQ/D1kTppelgVZ2+Y8UfvXw0APfkCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ProyectoPersonas\\CRUD_Personas\\CRUD_Personas_BL\\CRUD_Personas_BL.csproj",
+  "projectFilePath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\ProyectoPersonas\\CRUD_Personas\\CRUD_Personas_BL\\CRUD_Personas_BL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\TESTER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\TESTER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
