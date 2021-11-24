@@ -41,7 +41,17 @@ namespace CRUD_Personas_ASP.Controllers
         // GET: Personas/Create
         public ActionResult Create()
         {
-            return View();
+            vmIndex ovmIndex = null;
+            try
+            {
+                ovmIndex = new vmIndex();
+            }
+            catch (Exception)
+            {
+                //Enviar vista error
+            }
+
+            return View(ovmIndex.ListadoPersonasConNombreDepartamento);
         }
 
         // POST: Personas/Create

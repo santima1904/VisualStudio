@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31829.152
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_UWP", "CRUD_Personas_UWP\CRUD_Personas_UWP.csproj", "{6ADEAF58-78B1-4353-B45E-9CFD179642FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_ASP", "CRUD_Personas_ASP\CRUD_Personas_ASP.csproj", "{17BFB551-4530-4CB2-85D5-77B7B6765127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_ASP", "CRUD_Personas_ASP\CRUD_Personas_ASP.csproj", "{17BFB551-4530-4CB2-85D5-77B7B6765127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_DAL", "CRUD_Personas_DAL\CRUD_Personas_DAL.csproj", "{C02AA7F3-B542-4E18-B29E-AD32F8076AB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_DAL", "CRUD_Personas_DAL\CRUD_Personas_DAL.csproj", "{C02AA7F3-B542-4E18-B29E-AD32F8076AB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_BL", "CRUD_Personas_BL\CRUD_Personas_BL.csproj", "{38626A3D-0D09-4BEE-946F-8A932252078E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_BL", "CRUD_Personas_BL\CRUD_Personas_BL.csproj", "{38626A3D-0D09-4BEE-946F-8A932252078E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Personas_Entidades", "CRUD_Personas_Entidades\CRUD_Personas_Entidades.csproj", "{C6F550C5-1B68-49A2-A029-E21B8317CAFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Personas_Entidades", "CRUD_Personas_Entidades\CRUD_Personas_Entidades.csproj", "{C6F550C5-1B68-49A2-A029-E21B8317CAFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
