@@ -21,5 +21,15 @@ namespace CRUD_Personas_BL.Listado
         {
             return clsListadoPersonasDAL.obtenerListadoPersonasCompleto_DAL();
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static clsPersona obtenerPersona(int id)
+        {
+            return clsListadoPersonasDAL.obtenerPersona(id);
+        }
     }
 }

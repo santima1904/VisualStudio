@@ -3,10 +3,8 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_BL.pdb
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_DAL.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_Entidades.dll
-C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\System.Data.SqlClient.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_DAL.pdb
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_Entidades.pdb
-C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\System.Data.SqlClient.xml
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\obj\Debug\netstandard2.0\CRUD_Personas_BL.csproj.AssemblyReference.cache
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\obj\Debug\netstandard2.0\CRUD_Personas_BL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\obj\Debug\netstandard2.0\CRUD_Personas_BL.AssemblyInfoInputs.cache

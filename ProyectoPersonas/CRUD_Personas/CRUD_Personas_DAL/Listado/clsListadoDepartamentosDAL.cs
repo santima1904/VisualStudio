@@ -41,5 +41,33 @@ namespace CRUD_Personas_DAL.Listado
 
             return listado;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static Departamento obtenerDepartamento(int id)
+        {
+            Departamento departamento = new Departamento();
+            clsMyConnection miConexion = new clsMyConnection();
+            SqlConnection connection = miConexion.getConnection();
+            SqlCommand miComando = new SqlCommand();
+            SqlDataReader miLector;
+            miComando.CommandText = "SELECT * FROM Departamentos  WHERE IDDepartamento = " + id;
+            miComando.Connection = connection;
+            miLector = miComando.ExecuteReader();
+
+            if (miLector.HasRows)
+            {
+                miLector.Read();
+                departamento.Id = (int)miLector["IDDepartamento"];
+                departamento.Nombre = (string)miLector["nombreDepartamento"];
+            }
+            miLector.Close();
+            miConexion.closeConnection(ref connection);
+
+            return departamento;
+        }
     }
 }

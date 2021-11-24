@@ -24,7 +24,7 @@ namespace CRUD_Personas_DAL.Listado
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
             SqlDataReader miLector;
-            miComando.CommandText = "SELECT * FROM Cliente";
+            miComando.CommandText = "SELECT * FROM Personas";
             miComando.Connection = connection;
             miLector = miComando.ExecuteReader();
 
@@ -50,6 +50,11 @@ namespace CRUD_Personas_DAL.Listado
             return listado;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static clsPersona obtenerPersona(int id)
         {
             clsPersona oPersona = new clsPersona();
@@ -57,7 +62,7 @@ namespace CRUD_Personas_DAL.Listado
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
             SqlDataReader miLector;
-            miComando.CommandText = "SELECT * FROM Cliente  WHERE id = "+id;
+            miComando.CommandText = "SELECT * FROM Personas  WHERE IDPersona = "+id;
             miComando.Connection = connection;
             miLector = miComando.ExecuteReader();
 
