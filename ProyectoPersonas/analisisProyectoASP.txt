@@ -12,41 +12,40 @@ Capa DAL:
 			- clsPersona obtenerPersonaDAL(int id)
 
 		- ListadoDepartamentoDAL. 
-			- obtenerListadoDepartamentoDAL()
-			- obtenerDepartamentoDAL()
+			- List<Departamento> obtenerListadoDepartamentoDAL()
+			- Departamento obtenerDepartamentoDAL(int id)
 
 	Gestora:
 		- GestoraPersonaDAL. 
-			- insertarPersonaDAL()
-			- editarPersonaDAL()
-			- borrarPersonaDAL()
+			- int insertarPersonaDAL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int editarPersonaDAL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int borrarPersonaDAL(int id)
 
 		- GestoraDepartamentoDAL. 
-			- insertarDepartamentoDAL()
-			- editarDepartamentoDAL()
-			- borrarDepartamentoDAL()
+			- int insertarDepartamentoDAL(string nombre)
+			- int editarDepartamentoDAL(string nombre, int iddepartamento)
+			- int borrarDepartamentoDAL(int id)
 
 Capa BL:
 	Listado:
 		- ListadoPersonasBL. 
-			- obtenerListadoPersonasBL()
-			- obtenerPersonaBL()
+			- List<clsPersona> obtenerListadoPersonasBL()
+			- clsPersona obtenerPersonaBL(int id)
 
-		- ListadoDepartamentoBL. 
-			- obtenerListadoDepartamentoBL()
-			- obtenerDepartamentoBL()
+		- ListadoDepartamentoDAL. 
+			- List<Departamento> obtenerListadoDepartamentoBL()
+			- Departamento obtenerDepartamentoBL(int id)
 
 	Gestora:
 		- GestoraPersonaBL. 
-			- insertarPersonaBL()
-			- editarPersonaBL()
-			- borrarPersonaBL()
+			- int insertarPersonaBL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int editarPersonaBL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int borrarPersonaBL(int id)
 
 		- GestoraDepartamentoBL. 
-			- insertarDepartamentoBL()
-			- editarDepartamentoBL()
-			- borrarDepartamentoBL()
-
+			- int insertarDepartamentoBL(string nombre)
+			- int editarDepartamentoBL(string nombre, int iddepartamento)
+			- int borrarDepartamentoBL(int id)
 Capa UI:
 	Models:
 		- clsPersonaConNombreDepartamento -> hereda de clsPersona,  string nombreDepartamento
