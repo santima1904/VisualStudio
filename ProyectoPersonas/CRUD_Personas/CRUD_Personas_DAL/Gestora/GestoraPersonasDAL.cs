@@ -76,7 +76,7 @@ namespace CRUD_Personas_DAL.Gestora
             miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = oPersona.Id;
             miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = oPersona.Nombre;
             miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = oPersona.Apellidos;
-            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.VarChar).Value = oPersona.FechaNac;
+            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = oPersona.FechaNac;
             miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = oPersona.Telefono;
             miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = oPersona.Direccion;
             miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = oPersona.IdDepartamento;

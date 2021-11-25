@@ -256,3 +256,5 @@ C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Per
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\CRUD_Personas_ASP.genruntimeconfig.cache
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Create.cshtml.g.cs
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Edit.cshtml.g.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Create.cshtml.g.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Edit.cshtml.g.cs
