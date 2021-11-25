@@ -22,7 +22,7 @@ namespace CRUD_Personas_DAL.Listado
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
             SqlDataReader miLector;
-            miComando.CommandText = "SELECT * FROM Departamento";
+            miComando.CommandText = "SELECT * FROM Departamentos";
             miComando.Connection = connection;
             miLector = miComando.ExecuteReader();
 
@@ -31,7 +31,7 @@ namespace CRUD_Personas_DAL.Listado
                 while (miLector.Read())
                 {
                     Departamento odepartamento = new Departamento();
-                    odepartamento.Id = (int)miLector["IDDepartamentos"];
+                    odepartamento.Id = (int)miLector["IDDepartamento"];
                     odepartamento.Nombre = (string)miLector["nombreDepartamento"];
                     listado.Add(odepartamento);
                 }

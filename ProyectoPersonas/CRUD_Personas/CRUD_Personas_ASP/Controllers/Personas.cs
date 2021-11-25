@@ -5,6 +5,7 @@ using CRUD_Personas_ASP.Models;
 using CRUD_Personas_BL.Listado;
 using CRUD_Personas_ASP.Models.ViewModels;
 using System.Collections.ObjectModel;
+using CRUD_Personas_BL.Gestora;
 using System;
 
 namespace CRUD_Personas_ASP.Controllers
@@ -41,53 +42,66 @@ namespace CRUD_Personas_ASP.Controllers
         // GET: Personas/Create
         public ActionResult Create()
         {
-            vmIndex ovmIndex = null;
+            vmCreate ovmCreate = null;
             try
             {
-                ovmIndex = new vmIndex();
+                ovmCreate = new vmCreate();
             }
             catch (Exception)
             {
                 //Enviar vista error
             }
 
-            return View(ovmIndex.ListadoPersonasConNombreDepartamento);
+            return View(ovmCreate);
         }
 
         // POST: Personas/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(vmCreate vmCreate)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                GestoraPersonasBL.insertpersonaBL(vmCreate.PersonaVacia);
             }
             catch
             {
-                return View();
+                //Enviar vista error
             }
+            return View(vmCreate);
         }
 
         // GET: Personas/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            vmCreate ovmCreate = null;
+            try
+            {
+                ovmCreate = new vmCreate();
+                ovmCreate.PersonaVacia = clsListadoPersonasBL.obtenerPersona(id);
+            }
+            catch (Exception)
+            {
+                //Enviar vista error
+            }
+
+            return View(ovmCreate);
         }
 
         // POST: Personas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, vmCreate vmCreate)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                GestoraPersonasBL.updatepersonaBL(vmCreate.PersonaVacia);
             }
             catch
             {
-                return View();
+                //Enviar vista error
             }
+            return View(vmCreate);
         }
 
         // GET: Personas/Delete/5

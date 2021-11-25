@@ -1,4 +1,5 @@
 ﻿using CRUD_Personas_DAL.Conexion;
+using CRUD_Personas_Entidades;
 using System;
 using System.Data.SqlClient;
 
@@ -37,19 +38,19 @@ namespace CRUD_Personas_DAL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public static int insertpersonaDAL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+        public static int insertpersonaDAL(clsPersona opersona)
         {
             int resultado = 0;
             clsMyConnection miConexion = new clsMyConnection();
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
-            miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = nombre;
-            miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = apellidos;
-            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.VarChar).Value = fechanacimiento;
-            miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = telefono;
-            miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = direccion;
-            miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = iddepartamento;
-            miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = foto;
+            miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = opersona.Nombre;
+            miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = opersona.Apellidos;
+            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = opersona.FechaNac;
+            miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = opersona.Telefono;
+            miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = opersona.Direccion;
+            miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = opersona.IdDepartamento;
+            miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = opersona.Foto;
 
             miComando.CommandText = "INSERT INTO Personas VALUES(@nombre, @apellidos, @fechaNac, @telefono, @direccion, @iddepartamento, @foto)";
             miComando.Connection = connection;
@@ -66,20 +67,20 @@ namespace CRUD_Personas_DAL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public static int updatepersonaDAL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+        public static int updatepersonaDAL(clsPersona oPersona)
         {
             int resultado = 0;
             clsMyConnection miConexion = new clsMyConnection();
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
-            miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = idPersona;
-            miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = nombre;
-            miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = apellidos;
-            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.VarChar).Value = fechanacimiento;
-            miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = telefono;
-            miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = direccion;
-            miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = iddepartamento;
-            miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = foto;
+            miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = oPersona.Id;
+            miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = oPersona.Nombre;
+            miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = oPersona.Apellidos;
+            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.VarChar).Value = oPersona.FechaNac;
+            miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = oPersona.Telefono;
+            miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = oPersona.Direccion;
+            miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = oPersona.IdDepartamento;
+            miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = oPersona.Foto;
 
             miComando.CommandText = "Update Personas " +
                 "SET nombrePersona = @nombre, apellidosPersona = @apellidos, fechaNacimiento = @fechaNac," +

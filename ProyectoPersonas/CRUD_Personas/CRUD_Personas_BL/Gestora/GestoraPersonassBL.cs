@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using CRUD_Personas_DAL.Gestora;
+using CRUD_Personas_Entidades;
 
 namespace CRUD_Personas_BL.Gestora
 {
@@ -14,7 +15,7 @@ namespace CRUD_Personas_BL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public int deletepersonaBL(int id)
+        public static int deletepersonaBL(int id)
         {
             return GestoraPersonasDAL.deletepersonaDAL(id);
         }
@@ -26,9 +27,9 @@ namespace CRUD_Personas_BL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public int insertpersonaBL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+        public static int insertpersonaBL(clsPersona oPersona)
         {
-            return GestoraPersonasDAL.insertpersonaDAL(nombre, apellidos, fechanacimiento, telefono, direccion, foto, iddepartamento);
+            return GestoraPersonasDAL.insertpersonaDAL(oPersona);
         }
 
         /// <summary>
@@ -38,9 +39,9 @@ namespace CRUD_Personas_BL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public int updatepersonaBL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+        public static int updatepersonaBL(clsPersona oPersona)
         {
-            return GestoraPersonasDAL.updatepersonaDAL(idPersona, nombre, apellidos, fechanacimiento, telefono, direccion, foto, iddepartamento);
+            return GestoraPersonasDAL.updatepersonaDAL(oPersona);
         }
     }
 }

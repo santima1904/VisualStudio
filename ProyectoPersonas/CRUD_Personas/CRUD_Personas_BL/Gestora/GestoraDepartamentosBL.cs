@@ -14,7 +14,7 @@ namespace CRUD_Personas_BL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public int deletedepartamentoBL(int id)
+        public static int deletedepartamentoBL(int id)
         {
             return GestoraDepartamentosDAL.deletedepartamentoDAL(id);
         }
@@ -26,7 +26,7 @@ namespace CRUD_Personas_BL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public int insertdepartamentoBL(string nombre)
+        public static int insertdepartamentoBL(string nombre)
         {
             return GestoraDepartamentosDAL.insertdepartamentoDAL(nombre);
         }
@@ -38,7 +38,7 @@ namespace CRUD_Personas_BL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public int updatedepartamentoDAL(string nombre, int iddepartamento)
+        public static int updatedepartamentoDAL(string nombre, int iddepartamento)
         {
             return GestoraDepartamentosDAL.updatedepartamentoDAL(nombre, iddepartamento);
         }
