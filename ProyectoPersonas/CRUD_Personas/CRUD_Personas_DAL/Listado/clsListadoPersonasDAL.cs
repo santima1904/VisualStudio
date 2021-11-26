@@ -34,13 +34,62 @@ namespace CRUD_Personas_DAL.Listado
                 {
                     clsPersona oPersona = new clsPersona();
                     oPersona.Id = (int)miLector["IDPersona"];
-                    oPersona.Nombre = (string)miLector["nombrePersona"];
-                    oPersona.Apellidos = (string)miLector["apellidosPersona"];
-                    oPersona.FechaNac = (DateTime)miLector["fechaNacimiento"];
-                    oPersona.Telefono = (string)miLector["telefono"];
-                    oPersona.Direccion = (string)miLector["direccion"];
-                    oPersona.Foto = (string)miLector["Foto"];
-                    oPersona.IdDepartamento = (int)miLector["IDDepartamento"];
+                    if(miLector["nombrePersona"] != System.DBNull.Value)
+                    {
+                        oPersona.Nombre = (string)miLector["nombrePersona"];
+                    }
+                    else
+                    {
+                        oPersona.Nombre = null;
+                    }
+                    if (miLector["apellidosPersona"] != System.DBNull.Value)
+                    {
+                        oPersona.Apellidos = (string)miLector["apellidosPersona"];
+                    }
+                    else
+                    {
+                        oPersona.Apellidos = null;
+                    }
+                    if (miLector["fechaNacimiento"] != System.DBNull.Value)
+                    {
+                        oPersona.FechaNac = (DateTime)miLector["fechaNacimiento"];
+                    }
+                    else
+                    {
+                        oPersona.FechaNac = DateTime.Now;
+                    }
+                    if (miLector["telefono"] != System.DBNull.Value)
+                    {
+                        oPersona.Telefono = (string)miLector["telefono"];
+                    }
+                    else
+                    {
+                        oPersona.Telefono = null;
+                    }
+                    if (miLector["direccion"] != System.DBNull.Value)
+                    {
+                        oPersona.Direccion = (string)miLector["direccion"];
+                    }
+                    else
+                    {
+                        oPersona.Direccion = null;
+                    }
+                    if (miLector["Foto"] != System.DBNull.Value)
+                    {
+                        oPersona.Foto = (string)miLector["Foto"];
+                    }
+                    else
+                    {
+                        oPersona.Foto = null;
+                    }
+                    if (miLector["IDDepartamento"] != System.DBNull.Value)
+                    {
+                        oPersona.IdDepartamento = (int)miLector["IDDepartamento"];
+                    }
+                    else
+                    {
+                        oPersona.IdDepartamento = 0;
+                    }
                     listado.Add(oPersona);
                 }
             }
@@ -49,13 +98,14 @@ namespace CRUD_Personas_DAL.Listado
 
             return listado;
         }
+        
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        public static clsPersona obtenerPersona(int id)
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    public static clsPersona obtenerPersona(int id)
         {
             clsPersona oPersona = new clsPersona();
             clsMyConnection miConexion = new clsMyConnection();
@@ -69,14 +119,35 @@ namespace CRUD_Personas_DAL.Listado
             if (miLector.HasRows)
             {
                 miLector.Read();
-                    oPersona.Id = (int)miLector["IDPersona"];
+                oPersona.Id = (int)miLector["IDPersona"];
+                if (miLector["nombrePersona"] != System.DBNull.Value)
+                {
                     oPersona.Nombre = (string)miLector["nombrePersona"];
+                }
+                if (miLector["apellidosPersona"] != System.DBNull.Value)
+                {
                     oPersona.Apellidos = (string)miLector["apellidosPersona"];
+                }
+                if (miLector["fechaNacimiento"] != System.DBNull.Value)
+                {
                     oPersona.FechaNac = (DateTime)miLector["fechaNacimiento"];
+                }
+                if (miLector["telefono"] != System.DBNull.Value)
+                {
                     oPersona.Telefono = (string)miLector["telefono"];
+                }
+                if (miLector["direccion"] != System.DBNull.Value)
+                {
                     oPersona.Direccion = (string)miLector["direccion"];
+                }
+                if (miLector["Foto"] != System.DBNull.Value)
+                {
                     oPersona.Foto = (string)miLector["Foto"];
+                }
+                if (miLector["IDDepartamento"] != System.DBNull.Value)
+                {
                     oPersona.IdDepartamento = (int)miLector["IDDepartamento"];
+                }
             }
             miLector.Close();
             miConexion.closeConnection(ref connection);

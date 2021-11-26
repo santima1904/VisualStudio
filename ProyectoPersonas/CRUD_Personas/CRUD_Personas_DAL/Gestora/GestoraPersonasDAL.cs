@@ -44,14 +44,63 @@ namespace CRUD_Personas_DAL.Gestora
             clsMyConnection miConexion = new clsMyConnection();
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
-            miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = opersona.Nombre;
-            miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = opersona.Apellidos;
-            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = opersona.FechaNac;
-            miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = opersona.Telefono;
-            miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = opersona.Direccion;
-            miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = opersona.IdDepartamento;
-            miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = opersona.Foto;
-
+            if(opersona.Nombre != null)
+            {
+                miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = opersona.Nombre;
+            }
+            else
+            {
+                miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (opersona.Apellidos != null)
+            {
+                miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = opersona.Apellidos;
+            }
+            else
+            {
+                miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (opersona.FechaNac != null)
+            {
+                miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = opersona.FechaNac;
+            }
+            else
+            {
+                miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (opersona.Telefono != null)
+            {
+                miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = opersona.Telefono;
+            }
+            else
+            {
+                miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (opersona.Direccion != null)
+            {
+                miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = opersona.Direccion;
+            }
+            else
+            {
+                miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (opersona.IdDepartamento != 0)
+            {
+                miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = opersona.IdDepartamento;
+            }
+            else
+            {
+                miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (opersona.Foto != null)
+            {
+                miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = opersona.Foto;
+            }
+            else
+            {
+                miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            
             miComando.CommandText = "INSERT INTO Personas VALUES(@nombre, @apellidos, @fechaNac, @telefono, @direccion, @iddepartamento, @foto)";
             miComando.Connection = connection;
             resultado = miComando.ExecuteNonQuery();

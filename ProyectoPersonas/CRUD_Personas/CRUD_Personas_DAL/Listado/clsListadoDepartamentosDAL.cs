@@ -32,7 +32,10 @@ namespace CRUD_Personas_DAL.Listado
                 {
                     Departamento odepartamento = new Departamento();
                     odepartamento.Id = (int)miLector["IDDepartamento"];
-                    odepartamento.Nombre = (string)miLector["nombreDepartamento"];
+                    if(miLector["nombreDepartamento"] != System.DBNull.Value)
+                    {
+                        odepartamento.Nombre = (string)miLector["nombreDepartamento"];
+                    }
                     listado.Add(odepartamento);
                 }
             }
@@ -49,7 +52,7 @@ namespace CRUD_Personas_DAL.Listado
         /// <returns></returns>
         public static Departamento obtenerDepartamento(int id)
         {
-            Departamento departamento = new Departamento();
+            Departamento odepartamento = new Departamento();
             clsMyConnection miConexion = new clsMyConnection();
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
@@ -61,13 +64,16 @@ namespace CRUD_Personas_DAL.Listado
             if (miLector.HasRows)
             {
                 miLector.Read();
-                departamento.Id = (int)miLector["IDDepartamento"];
-                departamento.Nombre = (string)miLector["nombreDepartamento"];
+                odepartamento.Id = (int)miLector["IDDepartamento"];
+                if (miLector["nombreDepartamento"] != System.DBNull.Value)
+                {
+                    odepartamento.Nombre = (string)miLector["nombreDepartamento"];
+                }
             }
             miLector.Close();
             miConexion.closeConnection(ref connection);
 
-            return departamento;
+            return odepartamento;
         }
     }
 }
