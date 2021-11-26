@@ -66,11 +66,21 @@ namespace CRUD_Personas_ASP.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(vmCreate vmCreate)
         {
+            string mensaje = "";
+            int resultadoCRUD = 0;
             ActionResult actionResult;
             try
             {
-                GestoraPersonasBL.insertpersonaBL(vmCreate.PersonaVacia);
-                actionResult = View(vmCreate);
+                resultadoCRUD = GestoraPersonasBL.insertpersonaBL(vmCreate.PersonaVacia);
+                if (resultadoCRUD == 0)
+                {
+                    mensaje = "No se ha borrado correctamente";
+                }
+                else
+                {
+                    mensaje = "Se ha borrado correctamente";
+                }
+                actionResult = RedirectToAction("Listado", new { viewBag = mensaje });
             }
             catch
             {
@@ -103,16 +113,26 @@ namespace CRUD_Personas_ASP.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id,vmCreate vmCreate)
         {
+            string mensaje = "";
+            int resultadoCRUD = 0;
             ActionResult actionResult;
             try
             {
                 vmCreate.PersonaVacia.Id = id;
-                GestoraPersonasBL.updatepersonaBL(vmCreate.PersonaVacia);
+                resultadoCRUD = GestoraPersonasBL.updatepersonaBL(vmCreate.PersonaVacia);
+                if (resultadoCRUD == 0)
+                {
+                    mensaje = "No se ha borrado correctamente";
+                }
+                else
+                {
+                    mensaje = "Se ha borrado correctamente";
+                }
                 actionResult = View(vmCreate);
             }
             catch
             {
-                actionResult = View("PersonasError");
+                actionResult = View("PersonasError", new { viewBag = mensaje });
             }
             return actionResult;
         }
@@ -131,11 +151,21 @@ namespace CRUD_Personas_ASP.Controllers
         [ActionName("Delete")]
         public ActionResult DeleteBoton(int id)
         {
+            string mensaje = "";
+            int resultadoCRUD = 0;
             ActionResult actionResult;
             try
             {
-                GestoraPersonasBL.deletepersonaBL(id);
-                actionResult = RedirectToAction("Listado"/*, new {viewBag = "a"}*/);
+                resultadoCRUD = GestoraPersonasBL.deletepersonaBL(id);
+                if (resultadoCRUD == 0)
+                {
+                    mensaje = "No se ha borrado correctamente";
+                }
+                else
+                {
+                    mensaje = "Se ha borrado correctamente";
+                }
+                actionResult = RedirectToAction("Listado", new {viewBag = mensaje});
             }
             catch
             {
