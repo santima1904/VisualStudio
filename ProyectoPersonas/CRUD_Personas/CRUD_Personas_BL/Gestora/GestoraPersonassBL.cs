@@ -21,7 +21,7 @@ namespace CRUD_Personas_BL.Gestora
         }
 
         /// <summary>
-        /// <cadecera>public int insertpersonaBL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)</cadecera>
+        /// <cadecera>public int insertpersonaBL(clsPersona oPersona)</cadecera>
         /// <descripcion>Método para borrar una persona de la base de datos</descripcion>
         /// <precondiciones>id distinto de 0 y positivo</precondiciones>
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
@@ -33,7 +33,7 @@ namespace CRUD_Personas_BL.Gestora
         }
 
         /// <summary>
-        /// <cadecera>public int updatepersonaBL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)</cadecera>
+        /// <cadecera>public int updatepersonaBL(clsPersona oPersona)</cadecera>
         /// <descripcion>Método para borrar una persona de la base de datos</descripcion>
         /// <precondiciones>id distinto de 0 y positivo</precondiciones>
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>

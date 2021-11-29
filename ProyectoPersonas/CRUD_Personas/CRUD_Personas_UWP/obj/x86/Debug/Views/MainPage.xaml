@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="CRUD_Personas_UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CRUD_Personas_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+   
+    <RelativePanel>
+        <NavigationView x:ConnectionId='2' Name="navigationview" RelativePanel.Below="commandbar" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Contact" Content="Personas" Tag="Personas"/>
+                <NavigationViewItem Icon="Manage" Content="Departamentos" Tag="Departamentos"/>
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='4' x:Name="contentFrame" />
+        </NavigationView>
+        <CommandBar x:ConnectionId='3' x:Name="commandbar" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" OverflowButtonVisibility="Collapsed">
+            <AppBarButton Icon="Add"/>
+            <AppBarButton Icon="Save"/>
+            <AppBarButton Icon="Edit"/>
+            <AppBarButton Icon="Delete"/>
+        </CommandBar>
+        <RelativePanel RelativePanel.RightOf="navigationview" RelativePanel.Below="commandbar">
+            
+        </RelativePanel>
+    </RelativePanel>
+</Page>
+

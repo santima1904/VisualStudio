@@ -19,10 +19,12 @@ namespace CRUD_Personas_BL.Listado
         }
 
         /// <summary>
-        /// 
+        /// <cadecera>public static Departamento obtenerDepartamentoBL(int id)</cadecera>
+        /// <descripcion>Método para obtener un departamento de la capa DAL</descripcion>
+        /// <precondiciones>id positivo</precondiciones>
+        /// <postcondiciones>objeto departamento obtenido</postcondiciones>
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>Departamento</returns>
         public static Departamento obtenerDepartamentoBL(int id)
         {
             return clsListadoDepartamentosDAL.obtenerDepartamento(id);

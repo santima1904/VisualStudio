@@ -17,19 +17,24 @@ namespace CRUD_Personas_ASP.Models.ViewModels
         public ObservableCollection<clsPersonaConNombreDepartamento> ListadoPersonasConNombreDepartamento { get => listadoPersonasConNombreDepartamento; set => listadoPersonasConNombreDepartamento = value; }
 
         /// <summary>
-        ///     <cabecera></cabecera>
+        ///     <cabecera>private static ObservableCollection(clsPersonaConNombreDepartamento) obtenerListadoPersonasConNombreDepartamento()</cabecera>
+        ///     <descripcion>Método para obtener un listado con personas con nombre departamento</descripcion>
+        ///     <precondiciones>Capa DAL hecha</precondiciones>
+        ///     <postcondiciones>Listado lleno con las personas de la base de datos y el nombre de su departamento</postcondiciones>
         /// </summary>
-        /// <returns></returns>
+        /// <entradas>Ninguna</entradas>
+        /// <salidas>ObservableCollection(clsPersonaConNombreDepartamento)</salidas>
+        /// <returns>listadoPersonasNombreDepartamento</returns>
         private static ObservableCollection<clsPersonaConNombreDepartamento> obtenerListadoPersonasConNombreDepartamento()
         {
-            ObservableCollection<clsPersonaConNombreDepartamento> listadoersonasNombreDepartamento = new ObservableCollection<clsPersonaConNombreDepartamento>();
+            ObservableCollection<clsPersonaConNombreDepartamento> listadoPersonasNombreDepartamento = new ObservableCollection<clsPersonaConNombreDepartamento>();
             try
             {
                 ObservableCollection<clsPersona> listadopersonas = clsListadoPersonasBL.obtenerListadoPersonasCompleto_BL();
 
                 foreach (clsPersona persona in listadopersonas)
                 {
-                    listadoersonasNombreDepartamento.Add(new clsPersonaConNombreDepartamento(persona, (clsDepartamentosBL.obtenerDepartamentoBL(persona.IdDepartamento)).Nombre));
+                    listadoPersonasNombreDepartamento.Add(new clsPersonaConNombreDepartamento(persona, (clsDepartamentosBL.obtenerDepartamentoBL(persona.IdDepartamento)).Nombre));
                 }
             }
             catch (Exception)
@@ -37,7 +42,7 @@ namespace CRUD_Personas_ASP.Models.ViewModels
                 throw;
             }
 
-            return listadoersonasNombreDepartamento;
+            return listadoPersonasNombreDepartamento;
         }
     }
 }

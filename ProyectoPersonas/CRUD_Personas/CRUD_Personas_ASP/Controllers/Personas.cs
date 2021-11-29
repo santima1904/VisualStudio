@@ -4,12 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 using CRUD_Personas_ASP.Models;
 using CRUD_Personas_BL.Listado;
 using CRUD_Personas_ASP.Models.ViewModels;
-using System.Collections.ObjectModel;
 using CRUD_Personas_BL.Gestora;
 using System;
 
 namespace CRUD_Personas_ASP.Controllers
-{
+{ //TODO id con parametros en obtener persona
+    //TODO mandar desde index
+    //TODO 
     public class Personas : Controller
     {
         // GET: Personas
@@ -18,7 +19,7 @@ namespace CRUD_Personas_ASP.Controllers
             return View();
         }
 
-        public ActionResult Listado()
+        public ActionResult Listado(String viewbag)
         {
             vmIndex ovmIndex = null;
             ActionResult actionResult;
@@ -26,6 +27,7 @@ namespace CRUD_Personas_ASP.Controllers
             {
              ovmIndex = new vmIndex();
              actionResult = View(ovmIndex.ListadoPersonasConNombreDepartamento);
+                ViewBag.Mensaje = viewbag;
             }
             catch (Exception)
             {
@@ -74,13 +76,13 @@ namespace CRUD_Personas_ASP.Controllers
                 resultadoCRUD = GestoraPersonasBL.insertpersonaBL(vmCreate.PersonaVacia);
                 if (resultadoCRUD == 0)
                 {
-                    mensaje = "No se ha borrado correctamente";
+                    mensaje = "No se ha creado correctamente";
                 }
                 else
                 {
-                    mensaje = "Se ha borrado correctamente";
+                    mensaje = "Se ha creado correctamente";
                 }
-                actionResult = RedirectToAction("Listado", new { viewBag = mensaje });
+                actionResult = RedirectToAction("Listado", new { viewbag = mensaje });
             }
             catch
             {
@@ -122,17 +124,18 @@ namespace CRUD_Personas_ASP.Controllers
                 resultadoCRUD = GestoraPersonasBL.updatepersonaBL(vmCreate.PersonaVacia);
                 if (resultadoCRUD == 0)
                 {
-                    mensaje = "No se ha borrado correctamente";
+                    mensaje = "No se ha actualizado correctamente";
                 }
                 else
                 {
-                    mensaje = "Se ha borrado correctamente";
+                    mensaje = "Se ha actualizado correctamente";
                 }
+                ViewBag.mensaje = mensaje;
                 actionResult = View(vmCreate);
             }
             catch
             {
-                actionResult = View("PersonasError", new { viewBag = mensaje });
+                actionResult = View("PersonasError");
             }
             return actionResult;
         }

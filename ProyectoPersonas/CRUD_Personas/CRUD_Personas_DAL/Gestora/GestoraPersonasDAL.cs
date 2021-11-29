@@ -32,9 +32,9 @@ namespace CRUD_Personas_DAL.Gestora
         }
 
         /// <summary>
-        /// <cadecera>public static int insertpersonaDAL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)</cadecera>
+        /// <cadecera>public static int insertpersonaDAL(clsPersona opersona)</cadecera>
         /// <descripcion>Método para insertar una persona en la base de datos</descripcion>
-        /// <precondiciones>parámetros distintos de null</precondiciones>
+        /// <precondiciones>objeto persona distintos de null</precondiciones>
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
@@ -110,9 +110,9 @@ namespace CRUD_Personas_DAL.Gestora
         }
 
         /// <summary>
-        /// <cadecera>public static int updatepersonaDAL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)</cadecera>
+        /// <cadecera>public static int updatepersonaDAL(clsPersona oPersona)</cadecera>
         /// <descripcion>Método para actualizar una persona de la base de datos</descripcion>
-        /// <precondiciones>parámetros distintos de null</precondiciones>
+        /// <precondiciones>objeto persona distintos de null</precondiciones>
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
@@ -123,13 +123,62 @@ namespace CRUD_Personas_DAL.Gestora
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
             miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = oPersona.Id;
-            miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = oPersona.Nombre;
-            miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = oPersona.Apellidos;
-            miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = oPersona.FechaNac;
-            miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = oPersona.Telefono;
-            miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = oPersona.Direccion;
-            miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = oPersona.IdDepartamento;
-            miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = oPersona.Foto;
+            if (oPersona.Nombre != null)
+            {
+                miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = oPersona.Nombre;
+            }
+            else
+            {
+                miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (oPersona.Apellidos != null)
+            {
+                miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = oPersona.Apellidos;
+            }
+            else
+            {
+                miComando.Parameters.Add("@apellidos", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (oPersona.FechaNac != null)
+            {
+                miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.Date).Value = oPersona.FechaNac;
+            }
+            else
+            {
+                miComando.Parameters.Add("@fechaNac", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (oPersona.Telefono != null)
+            {
+                miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = oPersona.Telefono;
+            }
+            else
+            {
+                miComando.Parameters.Add("@telefono", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (oPersona.Direccion != null)
+            {
+                miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = oPersona.Direccion;
+            }
+            else
+            {
+                miComando.Parameters.Add("@direccion", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (oPersona.IdDepartamento != 0)
+            {
+                miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.Int).Value = oPersona.IdDepartamento;
+            }
+            else
+            {
+                miComando.Parameters.Add("@iddepartamento", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
+            if (oPersona.Foto != null)
+            {
+                miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = oPersona.Foto;
+            }
+            else
+            {
+                miComando.Parameters.Add("@foto", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+            }
 
             miComando.CommandText = "Update Personas " +
                 "SET nombrePersona = @nombre, apellidosPersona = @apellidos, fechaNacimiento = @fechaNac," +

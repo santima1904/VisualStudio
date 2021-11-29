@@ -6,7 +6,6 @@ using CRUD_Personas_Entidades;
 
 namespace CRUD_Personas_DAL.Listado
 {
-    //TODO trato de excepciones
     public class clsListadoPersonasDAL
     {
 
@@ -98,14 +97,16 @@ namespace CRUD_Personas_DAL.Listado
 
             return listado;
         }
-        
 
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="id"></param>
-    /// <returns></returns>
-    public static clsPersona obtenerPersona(int id)
+
+        /// <summary>
+        /// <cadecera>public static clsPersona obtenerPersona(int id)</cadecera>
+        /// <descripcion>Método para obtener una persona de la base de datos a partir de un id dado</descripcion>
+        /// <precondiciones>id positivo</precondiciones>
+        /// <postcondiciones>objeto persona obtenido</postcondiciones>
+        /// </summary>
+        /// <returns>clsPersona</returns>
+        public static clsPersona obtenerPersona(int id)
         {
             clsPersona oPersona = new clsPersona();
             clsMyConnection miConexion = new clsMyConnection();

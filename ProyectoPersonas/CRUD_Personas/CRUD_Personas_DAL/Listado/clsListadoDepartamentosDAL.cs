@@ -5,7 +5,6 @@ using System.Data.SqlClient;
 
 namespace CRUD_Personas_DAL.Listado
 {
-    //TODO trato de excepciones
     public class clsListadoDepartamentosDAL
     {
         /// <summary>
@@ -46,10 +45,12 @@ namespace CRUD_Personas_DAL.Listado
         }
 
         /// <summary>
-        /// 
+        /// <cadecera>public static Departamento obtenerDepartamento(int id)</cadecera>
+        /// <descripcion>Método para obtener un departamento de la base de datos a partir de un id dado</descripcion>
+        /// <precondiciones>id positivo</precondiciones>
+        /// <postcondiciones>objeto departamento obtenido</postcondiciones>
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>Departamento</returns>
         public static Departamento obtenerDepartamento(int id)
         {
             Departamento odepartamento = new Departamento();

@@ -23,10 +23,12 @@ namespace CRUD_Personas_BL.Listado
         }
 
         /// <summary>
-        /// 
+        /// <cadecera> public static clsPersona obtenerPersona(int id)</cadecera>
+        /// <descripcion>Método para obtener una persona de la capa DAL</descripcion>
+        /// <precondiciones>id positivo</precondiciones>
+        /// <postcondiciones>objeto persona obtenido</postcondiciones>
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>clsPersona</returns>
         public static clsPersona obtenerPersona(int id)
         {
             return clsListadoPersonasDAL.obtenerPersona(id);
