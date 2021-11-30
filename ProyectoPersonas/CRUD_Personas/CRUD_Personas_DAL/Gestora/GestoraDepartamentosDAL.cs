@@ -1,6 +1,7 @@
 ﻿using System;
 using CRUD_Personas_DAL.Conexion;
 using System.Data.SqlClient;
+using CRUD_Personas_Entidades;
 
 namespace CRUD_Personas_DAL.Gestora
 {
@@ -14,7 +15,7 @@ namespace CRUD_Personas_DAL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public static int deletedepartamentoDAL(int id)
+        public static int deletedepartamentoDAL(Departamento departamento)
         {
             int resultado = 0; 
             clsMyConnection miConexion = new clsMyConnection();
@@ -23,7 +24,7 @@ namespace CRUD_Personas_DAL.Gestora
             {
                 SqlConnection connection = miConexion.getConnection();
                 SqlCommand miComando = new SqlCommand();
-                miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+                miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = departamento.Id;
                 miComando.CommandText = "DELETE FROM Departamentos WHERE IDDepartamento = @id";
                 miComando.Connection = connection;
                 resultado = miComando.ExecuteNonQuery();
@@ -44,7 +45,7 @@ namespace CRUD_Personas_DAL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public static int insertdepartamentoDAL(string nombre)
+        public static int insertdepartamentoDAL(Departamento departamento)
         {
             int resultado = 0;
             clsMyConnection miConexion = new clsMyConnection();
@@ -53,8 +54,15 @@ namespace CRUD_Personas_DAL.Gestora
             {
                 SqlConnection connection = miConexion.getConnection();
                 SqlCommand miComando = new SqlCommand();
-                miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = nombre;
-
+                if(departamento != null)
+                {
+                   miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = departamento.Nombre;
+                }
+                else
+                {
+                    miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+                }
+                
                 miComando.CommandText = "INSERT INTO Departamentos VALUES(@nombre)";
                 miComando.Connection = connection;
                 resultado = miComando.ExecuteNonQuery();
@@ -76,7 +84,7 @@ namespace CRUD_Personas_DAL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public static int updatedepartamentoDAL(string nombre, int iddepartamento)
+        public static int updatedepartamentoDAL(Departamento departamento)
         {
             int resultado = 0;
             clsMyConnection miConexion = new clsMyConnection();
@@ -85,8 +93,15 @@ namespace CRUD_Personas_DAL.Gestora
             {
                 SqlConnection connection = miConexion.getConnection();
                 SqlCommand miComando = new SqlCommand();
-                miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = nombre;
-                miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = iddepartamento;
+                    if (departamento != null)
+                    {
+                        miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = departamento.Nombre;
+                    }
+                    else
+                    {
+                        miComando.Parameters.Add("@nombre", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
+                    }
+                miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = departamento.Id;
                 miComando.CommandText = "Update Departamentos " +
                     "SET nombreDepartamento = @nombre " +
                     "WHERE IDDepartamento = @id";

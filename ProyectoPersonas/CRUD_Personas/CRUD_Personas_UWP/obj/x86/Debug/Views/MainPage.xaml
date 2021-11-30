@@ -9,22 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
    
     <RelativePanel>
-        <NavigationView x:ConnectionId='2' Name="navigationview" RelativePanel.Below="commandbar" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
+        <NavigationView x:ConnectionId='2' Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Contact" Content="Personas" Tag="Personas"/>
-                <NavigationViewItem Icon="Manage" Content="Departamentos" Tag="Departamentos"/>
+                <NavigationViewItem x:ConnectionId='3' Icon="Contact" Content="Personas" Tag="Personas"                                   />
+                <NavigationViewItem x:ConnectionId='4' Icon="Manage" Content="Departamentos" Tag="Departamentos"                                     />
             </NavigationView.MenuItems>
-            <Frame x:ConnectionId='4' x:Name="contentFrame" />
+            <Frame x:ConnectionId='5' x:Name="contentFrame" />
         </NavigationView>
-        <CommandBar x:ConnectionId='3' x:Name="commandbar" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" OverflowButtonVisibility="Collapsed">
-            <AppBarButton Icon="Add"/>
-            <AppBarButton Icon="Save"/>
-            <AppBarButton Icon="Edit"/>
-            <AppBarButton Icon="Delete"/>
-        </CommandBar>
-        <RelativePanel RelativePanel.RightOf="navigationview" RelativePanel.Below="commandbar">
-            
-        </RelativePanel>
     </RelativePanel>
 </Page>
 

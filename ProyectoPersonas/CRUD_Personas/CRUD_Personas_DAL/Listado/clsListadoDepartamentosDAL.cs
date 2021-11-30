@@ -58,7 +58,8 @@ namespace CRUD_Personas_DAL.Listado
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
             SqlDataReader miLector;
-            miComando.CommandText = "SELECT * FROM Departamentos  WHERE IDDepartamento = " + id;
+            miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
+            miComando.CommandText = "SELECT * FROM Departamentos  WHERE IDDepartamento = @id";
             miComando.Connection = connection;
             miLector = miComando.ExecuteReader();
 

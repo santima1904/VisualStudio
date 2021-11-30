@@ -38,10 +38,10 @@
                 <input asp-for="PersonaVacia.FechaNac" class="form-control" />
                 <span asp-validation-for="PersonaVacia.FechaNac" class="text-danger"></span>
             </div>
-             <select name="PersonaVacia.IdDepartamento">
+             <select name="PersonaVacia.IdDepartamento" >
                 @foreach(CRUD_Personas_Entidades.Departamento departamento in @Model.Departamentos)
                 {
-                    <option name="PersonaVacia.IdDepartamento" value="@departamento.Id" >@departamento.Nombre</option>
+                    <option name="PersonaVacia.IdDepartamento" value="@departamento.Id" selected="@(departamento.Id == Model.PersonaVacia.IdDepartamento)" >@departamento.Nombre</option>
                 }
             </select>
             <div class="form-group">

@@ -58,3 +58,13 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\resources.en-us.resfiles
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\resources.en-us.resfiles.intermediate
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Departamentos.xbf
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Personas.xbf
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Departamentos.g.i.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Departamentos.g.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Personas.g.i.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Personas.g.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Departamentos.xaml
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Personas.xaml
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Departamentos.xbf
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Personas.xbf

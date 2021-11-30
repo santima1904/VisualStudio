@@ -1,5 +1,4 @@
 ﻿using CRUD_Personas_Entidades;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using CRUD_Personas_ASP.Models;
 using CRUD_Personas_BL.Listado;
@@ -8,9 +7,7 @@ using CRUD_Personas_BL.Gestora;
 using System;
 
 namespace CRUD_Personas_ASP.Controllers
-{ //TODO id con parametros en obtener persona
-    //TODO mandar desde index
-    //TODO 
+{ 
     public class Personas : Controller
     {
         // GET: Personas
@@ -143,9 +140,22 @@ namespace CRUD_Personas_ASP.Controllers
         // GET: Personas/Delete/5
         public ActionResult Delete(int id)
         {
-            clsPersona oPersona = clsListadoPersonasBL.obtenerPersona(id);
-            clsPersonaConNombreDepartamento oPersonaConNombreDepartamento = new clsPersonaConNombreDepartamento(oPersona, clsDepartamentosBL.obtenerDepartamentoBL(oPersona.IdDepartamento).Nombre);
-            return View(oPersonaConNombreDepartamento);
+            clsPersona oPersona;
+            clsPersonaConNombreDepartamento oPersonaConNombreDepartamento = null;
+            ActionResult actionResult;
+
+            try
+            {
+               oPersona = clsListadoPersonasBL.obtenerPersona(id);
+               oPersonaConNombreDepartamento = new clsPersonaConNombreDepartamento(oPersona, clsDepartamentosBL.obtenerDepartamentoBL(oPersona.IdDepartamento).Nombre);
+                actionResult = View(oPersonaConNombreDepartamento);
+            }
+            catch (Exception)
+            {
+                actionResult = View("PersonasError");
+            }
+            
+            return actionResult;
         }
 
         // POST: Personas/Delete/5

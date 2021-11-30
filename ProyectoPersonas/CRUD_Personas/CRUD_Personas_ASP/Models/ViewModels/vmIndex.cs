@@ -28,21 +28,47 @@ namespace CRUD_Personas_ASP.Models.ViewModels
         private static ObservableCollection<clsPersonaConNombreDepartamento> obtenerListadoPersonasConNombreDepartamento()
         {
             ObservableCollection<clsPersonaConNombreDepartamento> listadoPersonasNombreDepartamento = new ObservableCollection<clsPersonaConNombreDepartamento>();
+            ObservableCollection<clsPersona> listadopersonas;
+            ObservableCollection<Departamento> listadoDepartamentos;
+
             try
             {
-                ObservableCollection<clsPersona> listadopersonas = clsListadoPersonasBL.obtenerListadoPersonasCompleto_BL();
-
-                foreach (clsPersona persona in listadopersonas)
-                {
-                    listadoPersonasNombreDepartamento.Add(new clsPersonaConNombreDepartamento(persona, (clsDepartamentosBL.obtenerDepartamentoBL(persona.IdDepartamento)).Nombre));
-                }
+                listadopersonas = clsListadoPersonasBL.obtenerListadoPersonasCompleto_BL();
+                listadoDepartamentos = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
             }
             catch (Exception)
             {
                 throw;
             }
 
+            foreach (clsPersona persona in listadopersonas)
+            {
+                listadoPersonasNombreDepartamento.Add(new clsPersonaConNombreDepartamento(persona, obtenerNombreDepartamento(persona.IdDepartamento, listadoDepartamentos)));
+            }
+
             return listadoPersonasNombreDepartamento;
+        }
+
+        /// <summary>
+        ///     <cabecera>private static string obtenerNombreDepartamento(int id, ObservableCollection(Departamento) listadoDepartamentos)</cabecera>
+        ///     <descripcion>Método para obtener el nombre del departamento con id dado buscando en la lista dada de departamentos</descripcion>
+        ///     <precondiciones>id positivo y lista llena</precondiciones>
+        ///     <postcondiciones>Cadena devuelta con el nombre del departamento</postcondiciones>
+        /// </summary>
+        /// <entradas>int id, ObservableCollection(Departamento) listadoDepartamentos</entradas>
+        /// <salidas>string nombre</salidas>
+        /// <returns>string</returns>
+        private static string obtenerNombreDepartamento(int id, ObservableCollection<Departamento> listadoDepartamentos)
+        {
+            String nombre = " ";
+            foreach(Departamento departamento in listadoDepartamentos)
+            {
+                if(departamento.Id == id)
+                {
+                    nombre = departamento.Nombre;
+                }
+            }
+            return nombre;
         }
     }
 }

@@ -9,21 +9,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
    
     <RelativePanel>
-        <NavigationView Name="navigationview" RelativePanel.Below="commandbar" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
+        <NavigationView Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Contact" Content="Personas" Tag="Personas"/>
-                <NavigationViewItem Icon="Manage" Content="Departamentos" Tag="Departamentos"/>
+                <NavigationViewItem Icon="Contact" Content="Personas" Tag="Personas" Tapped="NavigationViewItem_Tapped"/>
+                <NavigationViewItem Icon="Manage" Content="Departamentos" Tag="Departamentos" Tapped="NavigationViewItem_Tapped_1"/>
             </NavigationView.MenuItems>
             <Frame x:Name="contentFrame" />
         </NavigationView>
-        <CommandBar x:Name="commandbar" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" OverflowButtonVisibility="Collapsed">
-            <AppBarButton Icon="Add"/>
-            <AppBarButton Icon="Save"/>
-            <AppBarButton Icon="Edit"/>
-            <AppBarButton Icon="Delete"/>
-        </CommandBar>
-        <RelativePanel RelativePanel.RightOf="navigationview" RelativePanel.Below="commandbar">
-            
-        </RelativePanel>
     </RelativePanel>
 </Page>

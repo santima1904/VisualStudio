@@ -14,7 +14,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NombreDepartamento)
+                Departamento
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nombre)
@@ -29,7 +29,7 @@
                 @Html.DisplayNameFor(model => model.Direccion)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaNac)
+               Fecha de nacimiento
             </th>
             <th></th>
         </tr>
@@ -53,7 +53,7 @@
                 @Html.DisplayFor(modelItem => item.Direccion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FechaNac)
+                @item.FechaNac.ToShortDateString()
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { item.Id }) |
