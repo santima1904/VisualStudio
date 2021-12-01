@@ -1,0 +1,66 @@
+Capa Entidades:
+	- clsPersona
+	- Departamento
+
+Capa DAL:
+	Conexion:
+		- clsMyConnection. getConnection()
+	
+	Listado:
+		- ListadoPersonasDAL. 
+			- List<clsPersona> obtenerListadoPersonasDAL()
+			- clsPersona obtenerPersonaDAL(int id)
+
+		- ListadoDepartamentoDAL. 
+			- List<Departamento> obtenerListadoDepartamentoDAL()
+			- Departamento obtenerDepartamentoDAL(int id)
+
+	Gestora:
+		- GestoraPersonaDAL. 
+			- int insertarPersonaDAL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int editarPersonaDAL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int borrarPersonaDAL(int id)
+
+		- GestoraDepartamentoDAL. 
+			- int insertarDepartamentoDAL(string nombre)
+			- int editarDepartamentoDAL(string nombre, int iddepartamento)
+			- int borrarDepartamentoDAL(int id)
+
+Capa BL:
+	Listado:
+		- ListadoPersonasBL. 
+			- List<clsPersona> obtenerListadoPersonasBL()
+			- clsPersona obtenerPersonaBL(int id)
+
+		- ListadoDepartamentoDAL. 
+			- List<Departamento> obtenerListadoDepartamentoBL()
+			- Departamento obtenerDepartamentoBL(int id)
+
+	Gestora:
+		- GestoraPersonaBL. 
+			- int insertarPersonaBL(string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int editarPersonaBL(int idPersona, string nombre, string apellidos, DateTime fechanacimiento, string telefono, string direccion, string foto, int iddepartamento)
+			- int borrarPersonaBL(int id)
+
+		- GestoraDepartamentoBL. 
+			- int insertarDepartamentoBL(string nombre)
+			- int editarDepartamentoBL(string nombre, int iddepartamento)
+			- int borrarDepartamentoBL(int id)
+
+Capa UI:
+	Views:
+		- MainPage
+		- Personas
+		- Departamentos
+	Models:
+
+	ViewModels:
+		- PersonasVM.
+			- List <clsPersonas> listadoPersonasCompleto
+			- List <Departamento> listadoDepartamentosCompleto
+			- clsPersona personaSeleccionada
+			(- List <clsPersonas> listadoPersonasOfrecido)//En el caso de buscar
+			(- string textoBuscar)//En el caso de buscar
+		- DepartamentosVM.	
+			- List <Departamento> listadoDepartamentosCompleto
+			- Departamento departamentoSeleccionado
