@@ -6,8 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-   
+    Background="#FEF5E7">
+
+    <Page.Resources>
+        <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground" Color="#FAD7A0"/>
+        <SolidColorBrush x:Key="NavigationViewDefaultPaneBackground" Color="#FAD7A0" />
+    </Page.Resources>
+    
     <RelativePanel>
         <NavigationView x:ConnectionId='2' Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
             <NavigationView.MenuItems>

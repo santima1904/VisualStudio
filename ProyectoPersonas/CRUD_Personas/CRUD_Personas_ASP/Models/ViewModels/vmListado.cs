@@ -5,10 +5,10 @@ using System;
 
 namespace CRUD_Personas_ASP.Models.ViewModels
 {
-    public class vmIndex
+    public class vmListado
     {
         private ObservableCollection<clsPersonaConNombreDepartamento> listadoPersonasConNombreDepartamento;
-        public vmIndex()
+        public vmListado()
         {
           listadoPersonasConNombreDepartamento = obtenerListadoPersonasConNombreDepartamento();
         }

@@ -8,7 +8,7 @@ using System;
 
 namespace CRUD_Personas_ASP.Controllers
 { 
-    public class Personas : Controller
+    public class PersonasController : Controller
     {
         // GET: Personas
         public ActionResult Index()
@@ -18,17 +18,17 @@ namespace CRUD_Personas_ASP.Controllers
 
         public ActionResult Listado(String viewbag)
         {
-            vmIndex ovmIndex = null;
+            vmListado ovmIndex = null;
             ActionResult actionResult;
             try
             {
-             ovmIndex = new vmIndex();
+             ovmIndex = new vmListado();
              actionResult = View(ovmIndex.ListadoPersonasConNombreDepartamento);
                 ViewBag.Mensaje = viewbag;
             }
             catch (Exception)
             {
-                actionResult = View("PersonasError");
+                actionResult = View("Error");
             }
 
             return actionResult;
@@ -45,16 +45,16 @@ namespace CRUD_Personas_ASP.Controllers
         // GET: Personas/Create
         public ActionResult Create()
         {
-            vmCreate ovmCreate = null;
+            vmCreateEditDetails ovmCreate = null;
             ActionResult actionResult;
             try
             {
-                ovmCreate = new vmCreate();
+                ovmCreate = new vmCreateEditDetails();
                 actionResult = View(ovmCreate);
             }
             catch (Exception)
             {
-                actionResult = View("PersonasError");
+                actionResult = View("Error");
             }
 
             return actionResult;
@@ -63,7 +63,7 @@ namespace CRUD_Personas_ASP.Controllers
         // POST: Personas/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(vmCreate vmCreate)
+        public ActionResult Create(vmCreateEditDetails vmCreate)
         {
             string mensaje = "";
             int resultadoCRUD = 0;
@@ -83,7 +83,7 @@ namespace CRUD_Personas_ASP.Controllers
             }
             catch
             {
-                actionResult = View("PersonasError");
+                actionResult = View("Error");
             }
             return actionResult;
         }
@@ -91,17 +91,17 @@ namespace CRUD_Personas_ASP.Controllers
         // GET: Personas/Edit/5
         public ActionResult Edit(int id)
         {
-            vmCreate ovmCreate = null;
+            vmCreateEditDetails ovmCreate = null;
             ActionResult actionResult;
             try
             {
-                ovmCreate = new vmCreate();
+                ovmCreate = new vmCreateEditDetails();
                 ovmCreate.PersonaVacia = clsListadoPersonasBL.obtenerPersona(id);
                 actionResult = View(ovmCreate);
             }
             catch (Exception)
             {
-                actionResult = View("PersonasError");
+                actionResult = View("Error");
             }
 
             return actionResult;
@@ -110,7 +110,7 @@ namespace CRUD_Personas_ASP.Controllers
         // POST: Personas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id,vmCreate vmCreate)
+        public ActionResult Edit(int id,vmCreateEditDetails vmCreate)
         {
             string mensaje = "";
             int resultadoCRUD = 0;
@@ -132,7 +132,7 @@ namespace CRUD_Personas_ASP.Controllers
             }
             catch
             {
-                actionResult = View("PersonasError");
+                actionResult = View("Error");
             }
             return actionResult;
         }
@@ -152,7 +152,7 @@ namespace CRUD_Personas_ASP.Controllers
             }
             catch (Exception)
             {
-                actionResult = View("PersonasError");
+                actionResult = View("Error");
             }
             
             return actionResult;
@@ -182,7 +182,7 @@ namespace CRUD_Personas_ASP.Controllers
             }
             catch
             {
-                actionResult = View("PersonasError");
+                actionResult = View("Error");
             }
             return actionResult;
         }

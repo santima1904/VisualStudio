@@ -34,7 +34,7 @@ namespace CRUD_Personas_DAL.Conexion
             
             this.server = "santimaserver.database.windows.net";
             this.dataBase = "BaseDatosAzure";
-            this.user = "saboresdelatierra";            
+            this.user = "saboresdelatierr";            
             this.pass = "#Mitesoro";
 
         }

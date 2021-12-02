@@ -7,20 +7,22 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="using:CRUD_Personas_UWP.ViewModels"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="#FEF5E7">
 
     <Page.DataContext>
         <vm:PersonasVM/>
     </Page.DataContext>
 
     <RelativePanel>
-        <CommandBar x:ConnectionId='2' x:Name="commandbar" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" OverflowButtonVisibility="Collapsed" RelativePanel.AlignVerticalCenterWithPanel="True">
+        <CommandBar x:ConnectionId='2' x:Name="commandbar" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" OverflowButtonVisibility="Collapsed" Background="#FAD7A0">
             <AppBarButton Icon="Add"/>
             <AppBarButton Icon="Save"/>
             <AppBarButton Icon="Edit"/>
             <AppBarButton Icon="Delete"/>
         </CommandBar>
-        <ListView x:ConnectionId='3' x:Name="lstLista" ItemsSource="{Binding ListadoPersonasCompleto, Mode=TwoWay}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.Below="commandbar" ScrollViewer.VerticalScrollBarVisibility="Visible">
+        <ListView x:ConnectionId='3' x:Name="lstLista" ItemsSource="{Binding ListadoPersonasCompleto, Mode=TwoWay}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay,
+            UpdateSourceTrigger=PropertyChanged}"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.Below="commandbar" ScrollViewer.VerticalScrollBarVisibility="Visible">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
@@ -30,8 +32,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Border BorderThickness="1" BorderBrush="Black" RelativePanel.RightOf="commandbar"  RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="commandbar" Margin="20">
-            <Grid x:ConnectionId='4' x:Name="grdFormulario">
+        <Grid x:ConnectionId='4' x:Name="grdFormulario" RelativePanel.RightOf="lstLista"  RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="commandbar" Margin="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -45,19 +46,19 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Row="0" Grid.Column="0" Margin="10">Nombre:</TextBlock>
-                <TextBlock Grid.Row="1" Grid.Column="0" Margin="10">Apellidos:</TextBlock>
-                <TextBlock Grid.Row="2" Grid.Column="0" Margin="10">Fecha de nacimiento:</TextBlock>
-                <TextBlock Grid.Row="3" Grid.Column="0" Margin="10">Teléfono:</TextBlock>
-                <TextBlock Grid.Row="4" Grid.Column="0" Margin="10">Dirección:</TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Nombre:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Apellidos:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Fecha de nacimiento:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Teléfono:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Dirección:</TextBlock>
 
-                <TextBlock x:ConnectionId='5' x:Name="txbNombre" Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre}"/>
+                <TextBlock x:ConnectionId='5' x:Name="txbNombre"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre}"/>
                 <TextBlock x:ConnectionId='6' x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Apellidos}"/>
                 <TextBlock x:ConnectionId='7' x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.FechaNac}"/>
                 <TextBlock x:ConnectionId='8' x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Telefono}"/>
-                <TextBlock x:ConnectionId='9' x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Direccion}"/>
+                <TextBlock x:ConnectionId='9' x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Direccion}" TextWrapping="Wrap"/>
+                <TextBlock x:ConnectionId='10' x:Name="txbDepartamento" Grid.Row="5" Grid.Column="1" Margin="10" Text="{Binding }" TextWrapping="Wrap"/>
             </Grid>
-        </Border>
     </RelativePanel>
 </Page>
 

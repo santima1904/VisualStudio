@@ -14,6 +14,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
       <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
@@ -27,8 +28,6 @@
       <RootMethod Name="SetAlignLeftWithPanel" />
       <RootMethod Name="GetAlignBottomWithPanel" />
       <RootMethod Name="SetAlignBottomWithPanel" />
-      <RootMethod Name="GetAlignVerticalCenterWithPanel" />
-      <RootMethod Name="SetAlignVerticalCenterWithPanel" />
       <RootMethod Name="GetBelow" />
       <RootMethod Name="SetBelow" />
       <RootMethod Name="GetRightOf" />
@@ -37,11 +36,15 @@
     <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
       <RootProperty Name="OverflowButtonVisibility" />
       <RootProperty Name="PrimaryCommands" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Icon" />
     </RootType>
     <RootType FullName="CRUD_Personas_UWP.Views.Departamentos" />
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="Name" />
       <RootProperty Name="PaneDisplayMode" />
@@ -68,13 +71,8 @@
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Border">
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Child" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Margin" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
@@ -91,8 +89,10 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalTextAlignment" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
