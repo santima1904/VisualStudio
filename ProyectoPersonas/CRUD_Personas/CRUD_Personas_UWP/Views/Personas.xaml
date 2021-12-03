@@ -47,17 +47,18 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Grid.Row="0" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Nombre:</TextBlock>
-            <TextBlock Grid.Row="1" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Apellidos:</TextBlock>
-            <TextBlock Grid.Row="2" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Fecha de nacimiento:</TextBlock>
-            <TextBlock Grid.Row="3" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Teléfono:</TextBlock>
-            <TextBlock Grid.Row="4" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Dirección:</TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Apellidos:</TextBlock>
+                <TextBlock Grid.Row="2" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Fecha de nacimiento:</TextBlock>
+                <TextBlock Grid.Row="3" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Teléfono:</TextBlock>
+                <TextBlock Grid.Row="4" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Dirección:</TextBlock>
+                <TextBlock Grid.Row="5" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Departamento:</TextBlock>
 
                 <TextBlock x:Name="txbNombre"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre}"/>
                 <TextBlock x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Apellidos}"/>
                 <TextBlock x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.FechaNac}"/>
                 <TextBlock x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Telefono}"/>
                 <TextBlock x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Direccion}" TextWrapping="Wrap"/>
-                <TextBlock x:Name="txbDepartamento" Grid.Row="5" Grid.Column="1" Margin="10" Text="{Binding }" TextWrapping="Wrap"/>
+                <TextBlock x:Name="txbDepartamento" Grid.Row="5" Grid.Column="1" Margin="10" Text="{Binding NombreDepartamento}" TextWrapping="Wrap"/>
             </Grid>
     </RelativePanel>
 </Page>

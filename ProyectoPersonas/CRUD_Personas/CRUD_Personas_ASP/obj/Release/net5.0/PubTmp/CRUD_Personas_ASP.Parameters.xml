@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CRUDPersonasASPSantiMartinez" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ProyectoPersonas\\CRUD_Personas\\CRUD_Personas_ASP\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

@@ -58,7 +58,7 @@ Capa UI:
 		- Error
 
 	Controllers:
-		- Personas
+		- PersonasContoller
 		- HomeController
 
  

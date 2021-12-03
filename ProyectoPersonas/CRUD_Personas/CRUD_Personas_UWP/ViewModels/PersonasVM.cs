@@ -8,6 +8,7 @@ using CRUD_Personas_BL.Gestora;
 using CRUD_Personas_BL.Listado;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using CRUD_Personas_UWP.Models;
 
 namespace CRUD_Personas_UWP.ViewModels
 {
@@ -15,25 +16,25 @@ namespace CRUD_Personas_UWP.ViewModels
     {
         ObservableCollection<clsPersona> listadoPersonasCompleto;
         ObservableCollection<Departamento> listadoDepartamentosCompleto;
-        clsPersona personaSeleccionada;
+        clsPersonaConNombreDepartamento personaSeleccionada;
 
         public ObservableCollection<clsPersona> ListadoPersonasCompleto { get => listadoPersonasCompleto; set => listadoPersonasCompleto = value; }
         public ObservableCollection<Departamento> ListadoDepartamentosCompleto { get => listadoDepartamentosCompleto; set => listadoDepartamentosCompleto = value; }
-        public clsPersona PersonaSeleccionada { 
+        public clsPersonaConNombreDepartamento PersonaSeleccionada { 
             get => personaSeleccionada;
             set
             {
                 personaSeleccionada = value;
                 NotifyPropertyChanged("PersonaSeleccionada");
             }
-            }
-
-    public PersonasVM()
-        {
-            this.listadoPersonasCompleto = clsListadoPersonasBL.obtenerListadoPersonasCompleto_BL();
-            this.listadoDepartamentosCompleto = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
-            this.personaSeleccionada=new clsPersona();
         }
+        public PersonasVM()
+        {
+                this.listadoPersonasCompleto = clsListadoPersonasBL.obtenerListadoPersonasCompleto_BL();
+                this.listadoDepartamentosCompleto = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
+                //this.personaSeleccionada=new clsPersona();
+        }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
 

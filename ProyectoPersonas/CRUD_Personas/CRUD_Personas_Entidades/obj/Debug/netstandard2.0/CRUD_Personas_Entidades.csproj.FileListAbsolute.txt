@@ -18,3 +18,6 @@ C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Per
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.csproj.CoreCompileInputs.cache
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.dll
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.pdb
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\obj\Debug\netstandard2.0\CRUD_Personas_Entidades.csproj.CopyComplete
