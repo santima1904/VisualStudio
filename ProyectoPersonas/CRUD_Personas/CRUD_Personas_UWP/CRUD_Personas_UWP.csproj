@@ -119,6 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\clsPersonaConNombreDepartamento.cs" />
     <Compile Include="ViewModels\PersonasVM.cs" />
     <Compile Include="Views\Departamentos.xaml.cs">
       <DependentUpon>Departamentos.xaml</DependentUpon>
@@ -173,7 +174,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="ViewModels\Utilidades\" />
   </ItemGroup>
   <ItemGroup>
