@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Yb+hspwfzCHxxZEo5Cf7pXGrRNaI+o+SzMOc4xS7i+eGGoyo8nqcJF8b0jwzh8qrt8adz07fZNolRrLJ9vc57A==",
+  "dgSpecHash": "PZ2btwAAMQqzwIJen2YZLwXhrQL9MZm+S+7M5LHQMlqhAhUuyLDFFK1v9LrXFVcKf3d7SRD1mmtgQaeVDuHfUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad11\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad11\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\TESTER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\TESTER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

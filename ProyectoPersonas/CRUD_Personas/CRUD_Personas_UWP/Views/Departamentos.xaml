@@ -5,15 +5,49 @@
     xmlns:local="using:CRUD_Personas_UWP.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:CRUD_Personas_UWP.ViewModels"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="#FEF5E7">
+
+    <Page.DataContext>
+        <vm:DepartamentosVM/>
+    </Page.DataContext>
 
     <RelativePanel>
-        <CommandBar x:Name="commandbar" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWithPanel="True" OverflowButtonVisibility="Collapsed">
+        <CommandBar x:Name="commandbar" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" OverflowButtonVisibility="Collapsed" Background="#FAD7A0">
             <AppBarButton Icon="Add"/>
             <AppBarButton Icon="Save"/>
             <AppBarButton Icon="Edit"/>
             <AppBarButton Icon="Delete"/>
         </CommandBar>
+        <TextBox x:Name="txbbarraBusqueda" RelativePanel.Below="commandbar" RelativePanel.AlignLeftWithPanel="True" 
+                      MinWidth="150" VerticalAlignment="Center" Margin="40,20,0,10"
+                      Text="{Binding TxbBarraBusqueda, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <AppBarButton Icon="Find" Command="{Binding BuscarCommand}" RelativePanel.Below="commandbar" RelativePanel.RightOf="txbbarraBusqueda"
+                      Margin="0,15,0,0"/>
+        <ListView x:Name="lstLista" ItemsSource="{Binding ListadoDepartamentosOfrecido, Mode=TwoWay}" SelectedItem="{Binding DepartamentoSeleccionado, Mode=TwoWay,
+            UpdateSourceTrigger=PropertyChanged}"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True"
+            RelativePanel.Below="txbbarraBusqueda" ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="20">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Nombre, Mode=TwoWay}" Margin="10, 0"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid x:Name="grdFormulario" RelativePanel.RightOf="lstLista"  RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="txbbarraBusqueda" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" MaxWidth="100"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Nombre:</TextBlock>
+
+            <TextBlock x:Name="txbNombre"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding DepartamentoSeleccionado.Nombre}" TextWrapping="Wrap"/>
+        </Grid>
     </RelativePanel>
 </Page>
