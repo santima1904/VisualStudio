@@ -25,7 +25,7 @@ namespace CRUD_Personas_DAL.Gestora
                 SqlConnection connection = miConexion.getConnection();
                 SqlCommand miComando = new SqlCommand();
                 miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = departamento.Id;
-                miComando.CommandText = "DELETE FROM Departamentos WHERE IDDepartamento = @id";
+                miComando.CommandText = "EXECUTE EliminarDepartamento @id";
                 miComando.Connection = connection;
                 resultado = miComando.ExecuteNonQuery();
 

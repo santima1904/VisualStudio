@@ -5,10 +5,15 @@
     xmlns:local="using:CRUD_Personas_UWP.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:vm="using:CRUD_Personas_UWP.ViewModels"
+    xmlns:vm="using:CRUD_Personas_UWP.ViewModels" 
+    xmlns:converters="using:CRUD_Personas_UWP.ViewModels.Utilidades.Converters"
     mc:Ignorable="d"
     Background="#FEF5E7">
 
+    <Page.Resources>
+        <converters:converterDate x:Key="convertirSoloFecha"/>
+        <converters:converterDateTimeOffset x:Key="convertirFecha"/>
+    </Page.Resources>
     <Page.DataContext>
         <vm:PersonasVM/>
     </Page.DataContext>
@@ -17,55 +22,94 @@
         <CommandBar x:ConnectionId='2' x:Name="commandbar"  RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True"
                     OverflowButtonVisibility="Collapsed" Background="#FAD7A0">
             <AppBarButton Icon="Add" Command="{Binding AnhadirCommand}"/>
-            <AppBarButton Icon="Save" Command="{Binding GuardarCommand}"/>
             <AppBarButton Icon="Edit" Command="{Binding EditarCommand}"/>
             <AppBarButton Icon="Delete" Command="{Binding BorrarCommand}"/>
         </CommandBar>
+        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
+                      RelativePanel.RightOf="btnFind" Visibility="{Binding VisibilityAnhadir}"/>
+        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
+                      RelativePanel.RightOf="btnFind" Visibility="{Binding VisibilityEditar}"/>
         <TextBox x:ConnectionId='3' x:Name="txbbarraBusqueda" RelativePanel.Below="commandbar" RelativePanel.AlignLeftWithPanel="True" 
                       MinWidth="150" VerticalAlignment="Center" Margin="40,20,0,10"
                       Text="{Binding TxbBarraBusqueda, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-        <AppBarButton Icon="Find" Command="{Binding BuscarCommand}" RelativePanel.Below="commandbar" RelativePanel.RightOf="txbbarraBusqueda"
+        <AppBarButton x:ConnectionId='4' x:Name="btnFind" Icon="Find" Command="{Binding BuscarCommand}" RelativePanel.Below="commandbar" RelativePanel.RightOf="txbbarraBusqueda"
                       Margin="0,15,0,0"/>
-        <ListView x:ConnectionId='4' x:Name="lstLista" ItemsSource="{Binding ListadoPersonasOfrecido, Mode=TwoWay}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay,
+        <ListView x:ConnectionId='5' x:Name="lstLista" ItemsSource="{Binding ListadoPersonasOfrecido, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay,
             UpdateSourceTrigger=PropertyChanged}"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True"
             RelativePanel.Below="txbbarraBusqueda" ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="20">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{Binding Nombre, Mode=TwoWay}" Margin="10, 0"/>
-                        <TextBlock Text="{Binding Apellidos, Mode=TwoWay}"/>
+                        <TextBlock Text="{Binding Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10, 0"/>
+                        <TextBlock Text="{Binding Apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Grid x:ConnectionId='5' x:Name="grdFormulario" RelativePanel.RightOf="lstLista"  RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="txbbarraBusqueda" Margin="20">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*" MaxWidth="150"/>
-                </Grid.ColumnDefinitions>
+        <Grid x:ConnectionId='6' x:Name="grdFormulario" RelativePanel.RightOf="lstLista" RelativePanel.Below="txbbarraBusqueda" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Row="0" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Nombre:</TextBlock>
-                <TextBlock Grid.Row="1" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Apellidos:</TextBlock>
-                <TextBlock Grid.Row="2" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Fecha de nacimiento:</TextBlock>
-                <TextBlock Grid.Row="3" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Teléfono:</TextBlock>
-                <TextBlock Grid.Row="4" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Dirección:</TextBlock>
-                <TextBlock Grid.Row="5" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Departamento:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Nombre:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Apellidos:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Fecha de nacimiento:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Teléfono:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Dirección:</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right" Visibility="{Binding VisibilityDetalles}">Departamento:</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right" Visibility="{Binding VisibilityAnhadir}">Foto:</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right" Visibility="{Binding VisibilityEditar}">Foto:</TextBlock>
+            <TextBlock Grid.Row="6" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right" Visibility="{Binding VisibilityEditar}">Departamento:</TextBlock>
+            <TextBlock Grid.Row="6" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right" Visibility="{Binding VisibilityAnhadir}">Departamento:</TextBlock>
+            
+            <TextBlock x:ConnectionId='7' x:Name="txtNombre" Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
+            <TextBlock x:ConnectionId='8' x:Name="txtApellidos" Grid.Row="1" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Apellidos}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
+            <TextBlock x:ConnectionId='9' x:Name="txtFechaNac" Grid.Row="2" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.FechaNac, Converter={StaticResource convertirSoloFecha}}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
+            <TextBlock x:ConnectionId='10' x:Name="txtTlfn" Grid.Row="3" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Telefono}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
+            <TextBlock x:ConnectionId='11' x:Name="txtDireccion" Grid.Row="4" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Direccion}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
+            <TextBlock x:ConnectionId='12' x:Name="txtDepartamento" Grid.Row="5" Grid.Column="1" Margin="10" Text="{Binding NombreDepartamento}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
 
-            <TextBlock x:ConnectionId='6' x:Name="txbNombre"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre}" TextWrapping="Wrap"/>
-            <TextBlock x:ConnectionId='7' x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Apellidos}" TextWrapping="Wrap"/>
-            <TextBlock x:ConnectionId='8' x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.FechaNac}" TextWrapping="Wrap"/>
-            <TextBlock x:ConnectionId='9' x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Telefono}" TextWrapping="Wrap"/>
-            <TextBlock x:ConnectionId='10' x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Direccion}" TextWrapping="Wrap"/>
-            <TextBlock x:ConnectionId='11' x:Name="txbDepartamento" Grid.Row="5" Grid.Column="1" Margin="10" Text="{Binding NombreDepartamento}" TextWrapping="Wrap"/>
-            </Grid>
+            <TextBox x:ConnectionId='13' x:Name="txbNombre" Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityAnhadir}"/>
+            <TextBox x:ConnectionId='14' x:Name="txbApellidos" Grid.Row="1" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityAnhadir}"/>
+            <DatePicker x:ConnectionId='15' x:Name="txbFechaNac" Grid.Row="2" Grid.Column="1" Margin="10" SelectedDate="{Binding PersonaSeleccionada.FechaNac, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource convertirFecha}}" Visibility="{Binding VisibilityAnhadir}"/>
+            <TextBox x:ConnectionId='16' x:Name="txbTlfn" Grid.Row="3" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Telefono, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityAnhadir}"/>
+            <TextBox x:ConnectionId='17' x:Name="txbDireccion" Grid.Row="4" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Direccion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityAnhadir}"/>
+            <TextBox x:ConnectionId='18' x:Name="txbFoto" Grid.Row="5" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Foto, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityAnhadir}"/>
+            <ComboBox Grid.Row="6" Grid.Column="1" Margin="10" ItemsSource="{Binding ListadoDepartamentosCompleto}" SelectedValue="{Binding PersonaSeleccionada.IdDepartamento, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" SelectedValuePath="Id" Visibility="{Binding VisibilityAnhadir}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Nombre}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <TextBox x:ConnectionId='19' x:Name="txtNombreEditar" Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
+            <TextBox x:ConnectionId='20' x:Name="txtApellidosEditar" Grid.Row="1" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
+            <DatePicker x:ConnectionId='21' x:Name="txtFechaNacEditar" Grid.Row="2" Grid.Column="1" Margin="10" SelectedDate="{Binding PersonaSeleccionada.FechaNac, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource convertirFecha}}" Visibility="{Binding VisibilityEditar}"/>
+            <TextBox x:ConnectionId='22' x:Name="txtTlfnEditar" Grid.Row="3" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Telefono, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
+            <TextBox x:ConnectionId='23' x:Name="txtDireccionEditar" Grid.Row="4" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Direccion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
+            <TextBox x:ConnectionId='24' x:Name="txtFoto" Grid.Row="5" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Foto, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
+            <ComboBox Grid.Row="6" Grid.Column="1" Margin="10" ItemsSource="{Binding ListadoDepartamentosCompleto}" SelectedValue="{Binding PersonaSeleccionada.IdDepartamento, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" SelectedValuePath="Id" Visibility="{Binding VisibilityEditar}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Nombre}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <TextBlock Grid.Row="0" Grid.RowSpan="2" VerticalAlignment="Center" Grid.Column="2" Foreground="Red" Margin="10" Visibility="{Binding VisibilityCampoVacio, UpdateSourceTrigger=PropertyChanged}">Contenido vacío</TextBlock>
+        </Grid>
+        <Image RelativePanel.RightOf="grdFormulario" RelativePanel.Below="txbbarraBusqueda" MaxHeight="300" MaxWidth="200" Margin="20" MinHeight="100" MinWidth="50" Source="{Binding PersonaSeleccionada.Foto}" Visibility="{Binding VisibilityDetalles}"/>
     </RelativePanel>
 </Page>
 

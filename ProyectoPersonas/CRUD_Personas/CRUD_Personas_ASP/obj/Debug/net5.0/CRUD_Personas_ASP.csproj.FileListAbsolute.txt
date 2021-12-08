@@ -262,5 +262,5 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Delete.cshtml.g.cs
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Delete.cshtml.g.cs
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Details.cshtml.g.cs
-C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\PersonasError.cshtml.g.cs
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Error.cshtml.g.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Debug\net5.0\Razor\Views\Personas\Error.cshtml.g.cs

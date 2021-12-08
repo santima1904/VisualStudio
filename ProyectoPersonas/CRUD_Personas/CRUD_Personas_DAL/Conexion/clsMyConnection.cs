@@ -30,8 +30,7 @@ namespace CRUD_Personas_DAL.Conexion
         //Constructores
 
         public clsMyConnection()
-        {
-            
+        {           
             this.server = "santimaserver.database.windows.net";
             this.dataBase = "BaseDatosAzure";
             this.user = "saboresdelatierra";            

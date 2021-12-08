@@ -15,15 +15,18 @@
 
     <RelativePanel>
         <CommandBar x:Name="commandbar" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" OverflowButtonVisibility="Collapsed" Background="#FAD7A0">
-            <AppBarButton Icon="Add"/>
-            <AppBarButton Icon="Save"/>
-            <AppBarButton Icon="Edit"/>
-            <AppBarButton Icon="Delete"/>
+            <AppBarButton Icon="Add" Command="{Binding AnhadirCommand}"/>
+            <AppBarButton Icon="Edit" Command="{Binding EditarCommand}"/>
+            <AppBarButton Icon="Delete" Command="{Binding BorrarCommand}"/>
         </CommandBar>
+        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
+                      RelativePanel.RightOf="btnFind" Visibility="{Binding VisibilityAnhadir}"/>
+        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
+                      RelativePanel.RightOf="btnFind" Visibility="{Binding VisibilityEditar}"/>
         <TextBox x:Name="txbbarraBusqueda" RelativePanel.Below="commandbar" RelativePanel.AlignLeftWithPanel="True" 
                       MinWidth="150" VerticalAlignment="Center" Margin="40,20,0,10"
                       Text="{Binding TxbBarraBusqueda, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-        <AppBarButton Icon="Find" Command="{Binding BuscarCommand}" RelativePanel.Below="commandbar" RelativePanel.RightOf="txbbarraBusqueda"
+        <AppBarButton x:Name="btnFind" Icon="Find" Command="{Binding BuscarCommand}" RelativePanel.Below="commandbar" RelativePanel.RightOf="txbbarraBusqueda"
                       Margin="0,15,0,0"/>
         <ListView x:Name="lstLista" ItemsSource="{Binding ListadoDepartamentosOfrecido, Mode=TwoWay}" SelectedItem="{Binding DepartamentoSeleccionado, Mode=TwoWay,
             UpdateSourceTrigger=PropertyChanged}"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True"
@@ -42,12 +45,16 @@
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*" MaxWidth="100"/>
+                <ColumnDefinition Width="*" MinWidth="150"/>
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.Row="0" Grid.Column="0" Margin="10" HorizontalTextAlignment="Right">Nombre:</TextBlock>
 
-            <TextBlock x:Name="txbNombre"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding DepartamentoSeleccionado.Nombre}" TextWrapping="Wrap"/>
+            <TextBlock x:Name="txtNombre"  Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="10" Text="{Binding DepartamentoSeleccionado.Nombre}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
+            <TextBox x:Name="txbNombre"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding DepartamentoSeleccionado.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityAnhadir}"/>
+            <TextBox x:Name="txbNombreEditar"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding DepartamentoSeleccionado.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Foreground="Red" Margin="10" Visibility="{Binding VisibilityCampoVacio, UpdateSourceTrigger=PropertyChanged}">Contenido vacío</TextBlock>
         </Grid>
     </RelativePanel>
 </Page>

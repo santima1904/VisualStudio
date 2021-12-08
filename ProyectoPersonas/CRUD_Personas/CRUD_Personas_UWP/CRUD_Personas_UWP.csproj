@@ -123,9 +123,14 @@
     <Compile Include="ViewModels\DepartamentosVM.cs" />
     <Compile Include="ViewModels\PersonasVM.cs" />
     <Compile Include="ViewModels\Utilidades\clsVMBase.cs" />
+    <Compile Include="ViewModels\Utilidades\Converters\converterDate.cs" />
+    <Compile Include="ViewModels\Utilidades\Converters\converterDateTimeOffset.cs" />
     <Compile Include="ViewModels\Utilidades\DelegateCommand.cs" />
     <Compile Include="Views\Departamentos.xaml.cs">
       <DependentUpon>Departamentos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Error.xaml.cs">
+      <DependentUpon>Error.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -156,6 +161,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Views\Departamentos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Error.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

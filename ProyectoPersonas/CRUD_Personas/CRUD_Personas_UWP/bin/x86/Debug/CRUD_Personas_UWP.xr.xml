@@ -1,22 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="VisibilityCampoVacio" />
     <RootPropertyPathName Name="DepartamentoSeleccionado" />
     <RootPropertyPathName Name="Nombre" />
+    <RootPropertyPathName Name="VisibilityEditar" />
+    <RootPropertyPathName Name="VisibilityAnhadir" />
+    <RootPropertyPathName Name="VisibilityDetalles" />
     <RootPropertyPathName Name="ListadoDepartamentosOfrecido" />
     <RootPropertyPathName Name="BuscarCommand" />
     <RootPropertyPathName Name="TxbBarraBusqueda" />
-    <RootPropertyPathName Name="NombreDepartamento" />
+    <RootPropertyPathName Name="GuardarCommand" />
+    <RootPropertyPathName Name="BorrarCommand" />
+    <RootPropertyPathName Name="EditarCommand" />
+    <RootPropertyPathName Name="AnhadirCommand" />
     <RootPropertyPathName Name="PersonaSeleccionada" />
+    <RootPropertyPathName Name="Foto" />
+    <RootPropertyPathName Name="Id" />
+    <RootPropertyPathName Name="ListadoDepartamentosCompleto" />
+    <RootPropertyPathName Name="IdDepartamento" />
     <RootPropertyPathName Name="Direccion" />
     <RootPropertyPathName Name="Telefono" />
     <RootPropertyPathName Name="FechaNac" />
     <RootPropertyPathName Name="Apellidos" />
+    <RootPropertyPathName Name="NombreDepartamento" />
     <RootPropertyPathName Name="ListadoPersonasOfrecido" />
-    <RootPropertyPathName Name="BorrarCommand" />
-    <RootPropertyPathName Name="EditarCommand" />
-    <RootPropertyPathName Name="GuardarCommand" />
-    <RootPropertyPathName Name="AnhadirCommand" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -47,16 +58,20 @@
       <RootProperty Name="Background" />
       <RootProperty Name="PrimaryCommands" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Visibility" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="MinWidth" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Text" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
-      <RootProperty Name="Icon" />
-      <RootProperty Name="Command" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
@@ -77,13 +92,17 @@
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
-      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="MinWidth" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Margin" />
@@ -91,10 +110,16 @@
       <RootProperty Name="Inlines" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="Mode" />
       <RootProperty Name="UpdateSourceTrigger" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
@@ -104,6 +129,17 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="CRUD_Personas_UWP.Views.Departamentos" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="CRUD_Personas_UWP.Views.Error" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
     </RootType>
@@ -123,7 +159,23 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="CRUD_Personas_UWP.MainPage" />
+    <RootType FullName="CRUD_Personas_UWP.ViewModels.Utilidades.Converters.converterDate" />
+    <RootType FullName="CRUD_Personas_UWP.ViewModels.Utilidades.Converters.converterDateTimeOffset" />
     <RootType FullName="CRUD_Personas_UWP.ViewModels.PersonasVM" />
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="SelectedDate" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedValue" />
+      <RootProperty Name="SelectedValuePath" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="CRUD_Personas_UWP.Views.Personas" />
   </Roots.RootTypes>
 </Roots>

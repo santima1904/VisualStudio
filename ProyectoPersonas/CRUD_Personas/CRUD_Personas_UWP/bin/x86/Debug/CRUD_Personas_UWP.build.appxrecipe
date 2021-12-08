@@ -94,6 +94,9 @@
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Departamentos.xbf">
       <PackagePath>Views\Departamentos.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Error.xbf">
+      <PackagePath>Views\Error.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
