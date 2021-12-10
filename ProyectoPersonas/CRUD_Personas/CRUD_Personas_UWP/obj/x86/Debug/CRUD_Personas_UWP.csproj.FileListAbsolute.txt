@@ -144,3 +144,9 @@ C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Per
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Error.g.cs
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Error.xaml
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Error.xbf
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Error.xbf
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Error.g.i.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Error.g.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Error.xaml
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\Error.xbf
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json

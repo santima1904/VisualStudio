@@ -29,21 +29,18 @@ namespace CRUD_Personas_UWP
 
         private void NavigationViewItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            NavigationViewItem navigationView = sender as NavigationViewItem;
             try
             {
-                contentFrame.Navigate(typeof(CRUD_Personas_UWP.Views.Personas));
-            }
-            catch (Exception)
-            {
-                contentFrame.Navigate(typeof(CRUD_Personas_UWP.Views.Error));
-            }
-        }
-
-        private void NavigationViewItem_Tapped_1(object sender, TappedRoutedEventArgs e)
-        {
-            try
-            {
-                contentFrame.Navigate(typeof(CRUD_Personas_UWP.Views.Departamentos));
+                if(navigationView.Name == "nvwPersonas")
+                {
+                    contentFrame.Navigate(typeof(CRUD_Personas_UWP.Views.Personas));
+                }
+                else
+                {
+                    contentFrame.Navigate(typeof(CRUD_Personas_UWP.Views.Departamentos));
+                }
+               
             }
             catch (Exception)
             {

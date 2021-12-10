@@ -39,7 +39,7 @@ namespace CRUD_Personas_Entidades
             this.telefono = "";
             this.direccion = "";
             this.fechaNac = DateTime.Now;
-            this.idDepartamento = 0;
+            this.idDepartamento = 1;
             this.foto = "";
         }
         #endregion

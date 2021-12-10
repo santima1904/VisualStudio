@@ -16,8 +16,8 @@
     <RelativePanel>
         <NavigationView Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Contact" Content="Personas" Tag="Personas" Tapped="NavigationViewItem_Tapped"/>
-                <NavigationViewItem Icon="Manage" Content="Departamentos" Tag="Departamentos" Tapped="NavigationViewItem_Tapped_1"/>
+                <NavigationViewItem x:Name="nvwPersonas" Icon="Contact" Content="Personas" Tag="Personas" Tapped="NavigationViewItem_Tapped"/>
+                <NavigationViewItem x:Name="nvwDepartamentos" Icon="Manage" Content="Departamentos" Tag="Departamentos" Tapped="NavigationViewItem_Tapped"/>
             </NavigationView.MenuItems>
             <Frame x:Name="contentFrame" />
         </NavigationView>

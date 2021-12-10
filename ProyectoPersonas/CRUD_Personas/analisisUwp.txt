@@ -55,12 +55,58 @@ Capa UI:
 	Models:
 
 	ViewModels:
-		- PersonasVM.
+		- PersonasVM. Atributos:
 			- List <clsPersonas> listadoPersonasCompleto
 			- List <Departamento> listadoDepartamentosCompleto
 			- clsPersona personaSeleccionada
-			(- List <clsPersonas> listadoPersonasOfrecido)//En el caso de buscar
-			(- string textoBuscar)//En el caso de buscar
-		- DepartamentosVM.	
+			- List <clsPersonas> listadoPersonasOfrecido
+			- string textoBuscar
+			- string nombreDepartamento
+			- DelegateCommand buscarCommand;
+        		- DelegateCommand anhadirCommand;
+        		- DelegateCommand borrarCommand;
+        		- DelegateCommand editarCommand;
+        		- DelegateCommand guardarCommand;
+        		- string txbBarraBusqueda;
+        		- string visibilityDetalles = "Visible";
+        		- string visibilityAnhadir = "Collapsed";
+        		- string visibilityEditar = "Collapsed";
+        		- string visibilityCampoVacio = "Collapsed";
+		Métodos:
+			- Constructor
+			- Getters y setters
+			- bool PuedeEjercutarBuscarCommand()
+			- bool PuedeEjercutarCommandBar()
+			- BuscarCommand_Executed()
+			- AnhadirCommand_Executed()
+			- GuardarCommand_Executed()
+			- BorrarCommand_Executed()
+			- EditarCommand_Executed()
+			- guardarBasedeDatos()
+			- getNombreDepartamentoDePersona()
+			- generarMensajeErrorAsync()
+		
+		- DepartamentosVM. Atributos:	
 			- List <Departamento> listadoDepartamentosCompleto
+        		- List <Departamento> listadoDepartamentosOfrecido;
 			- Departamento departamentoSeleccionado
+        		- DelegateCommand anhadirCommand;
+        		- DelegateCommand borrarCommand;
+        		- DelegateCommand editarCommand;
+        		- DelegateCommand guardarCommand;
+        		- string visibilityDetalles = "Visible";
+        		- string visibilityAnhadir = "Collapsed";
+        		- string visibilityEditar = "Collapsed";
+        		- string visibilityCampoVacio = "Collapsed";
+
+		Métodos:
+			- Constructor
+			- Getters y setters
+			- bool PuedeEjercutarCommandBar()
+			- AnhadirCommand_Executed()
+			- GuardarCommand_Executed()
+			- BorrarCommand_Executed()
+			- EditarCommand_Executed()
+			- guardarBasedeDatos()
+			- generarMensajeErrorAsync()
+			- generarMensajeErrorAsync()

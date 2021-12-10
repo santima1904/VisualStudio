@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-2BC74AF8</Machine>
-    <WindowsUser>TESTER</WindowsUser>
+    <Machine>107-12</Machine>
+    <WindowsUser>smartinez</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>74e77f2c-7d99-45e2-8d9d-e5b58f73ac61</PackageIdentityName>
     <PackageIdentityPublisher>CN=smartinez</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>4027D82EB84EE3F0D8E551099390A5DEAE8D87980C19EF111ADF128DDA5258D9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>74e77f2c-7d99-45e2-8d9d-e5b58f73ac61_1.0.0.0_x86__2cyxs4py2y0vg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>74e77f2c-7d99-45e2-8d9d-e5b58f73ac61_2cyxs4py2y0vg!App</RegisteredUserModeAppID>
@@ -27,126 +27,126 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-08T18:28:19.609</Modified>
+      <Modified>2021-12-10T07:42:03.228</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\CRUD_Personas_UWP.exe">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\CRUD_Personas_UWP.exe">
       <PackagePath>entrypoint\CRUD_Personas_UWP.exe</PackagePath>
-      <Modified>2021-12-08T18:28:18.943</Modified>
+      <Modified>2021-12-10T07:42:02.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-02-05T00:15:46.000</Modified>
+      <Modified>2021-02-04T23:15:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\.nuget\packages\system.data.sqlclient\4.8.3\runtimes\win\lib\uap10.0.16299\System.Data.SqlClient.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\.nuget\packages\system.data.sqlclient\4.8.3\runtimes\win\lib\uap10.0.16299\System.Data.SqlClient.dll">
       <PackagePath>System.Data.SqlClient.dll</PackagePath>
       <Modified>2021-08-16T19:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\.nuget\packages\system.diagnostics.diagnosticsource\4.7.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\.nuget\packages\system.diagnostics.diagnosticsource\4.7.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
       <Modified>2019-11-15T08:54:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\.nuget\packages\system.runtime.compilerservices.unsafe\4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2019-11-15T08:37:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\.nuget\packages\system.text.encoding.codepages\4.7.0\runtimes\win\lib\netstandard2.0\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\.nuget\packages\system.text.encoding.codepages\4.7.0\runtimes\win\lib\netstandard2.0\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
       <Modified>2019-11-15T08:53:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_BL.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_BL.dll">
       <PackagePath>CRUD_Personas_BL.dll</PackagePath>
-      <Modified>2021-12-08T18:28:14.631</Modified>
+      <Modified>2021-12-09T08:02:26.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\bin\Debug\netstandard2.0\CRUD_Personas_Entidades.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_Entidades\bin\Debug\netstandard2.0\CRUD_Personas_Entidades.dll">
       <PackagePath>CRUD_Personas_Entidades.dll</PackagePath>
-      <Modified>2021-12-06T16:45:16.352</Modified>
+      <Modified>2021-12-09T07:56:07.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_DAL.dll">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_BL\bin\Debug\netstandard2.0\CRUD_Personas_DAL.dll">
       <PackagePath>CRUD_Personas_DAL.dll</PackagePath>
-      <Modified>2021-12-08T18:28:14.424</Modified>
+      <Modified>2021-12-09T08:02:26.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T03:52:00.000</Modified>
+      <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-11-21T17:57:44.007</Modified>
+      <Modified>2021-11-17T12:31:00.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-11-21T17:57:43.989</Modified>
+      <Modified>2021-10-08T09:23:17.721</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-21T17:57:43.990</Modified>
+      <Modified>2021-10-08T09:23:17.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-21T17:57:43.990</Modified>
+      <Modified>2021-10-08T09:23:17.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-21T17:57:43.991</Modified>
+      <Modified>2021-10-08T09:23:17.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-21T17:57:43.991</Modified>
+      <Modified>2021-10-08T09:23:17.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-21T17:57:43.992</Modified>
+      <Modified>2021-10-08T09:23:17.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-21T17:57:43.992</Modified>
+      <Modified>2021-10-08T09:23:17.726</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\CRUD_Personas_UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\CRUD_Personas_UWP.xr.xml">
       <PackagePath>CRUD_Personas_UWP.xr.xml</PackagePath>
-      <Modified>2021-12-08T18:11:42.086</Modified>
+      <Modified>2021-12-10T07:42:02.596</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-12-08T18:28:18.864</Modified>
+      <Modified>2021-12-10T07:42:02.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Departamentos.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Departamentos.xbf">
       <PackagePath>Views\Departamentos.xbf</PackagePath>
-      <Modified>2021-12-08T18:28:18.864</Modified>
+      <Modified>2021-12-10T07:42:02.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Error.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Error.xbf">
       <PackagePath>Views\Error.xbf</PackagePath>
-      <Modified>2021-12-08T18:28:18.864</Modified>
+      <Modified>2021-12-10T07:42:02.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-12-08T18:28:18.864</Modified>
+      <Modified>2021-12-10T07:42:02.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Personas.xbf">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Personas.xbf">
       <PackagePath>Views\Personas.xbf</PackagePath>
-      <Modified>2021-12-08T18:28:18.864</Modified>
+      <Modified>2021-12-10T07:42:02.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T01:52:06.000</Modified>
+      <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-12-08T16:59:20.632</Modified>
+      <Modified>2021-12-09T07:21:10.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\CRUD_Personas_UWP.exe">
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\CRUD_Personas_UWP.exe">
       <PackagePath>CRUD_Personas_UWP.exe</PackagePath>
-      <Modified>2021-12-08T18:28:19.605</Modified>
+      <Modified>2021-12-10T07:42:03.225</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -38,6 +38,7 @@ namespace CRUD_Personas_UWP.ViewModels
                 this.listadoPersonasCompleto = clsListadoPersonasBL.obtenerListadoPersonasCompleto_BL();
                 this.listadoDepartamentosCompleto = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
                 this.listadoPersonasOfrecido = listadoPersonasCompleto;
+
             }
             catch (Exception)
             {
@@ -375,6 +376,8 @@ namespace CRUD_Personas_UWP.ViewModels
             ContentDialogResult respuesta = await mensajeError.ShowAsync();
 
         }
+
+       
         #endregion
     }
 }

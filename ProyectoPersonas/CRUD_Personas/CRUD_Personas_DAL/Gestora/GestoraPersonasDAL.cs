@@ -23,7 +23,7 @@ namespace CRUD_Personas_DAL.Gestora
             SqlConnection connection = miConexion.getConnection();
             SqlCommand miComando = new SqlCommand();
             miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
-            miComando.CommandText = "EXECUTE EliminarDepartamento @id";
+            miComando.CommandText = "DELETE FROM Personas WHERE IDPersona = @id";
             miComando.Connection = connection;
             resultado = miComando.ExecuteNonQuery();
 

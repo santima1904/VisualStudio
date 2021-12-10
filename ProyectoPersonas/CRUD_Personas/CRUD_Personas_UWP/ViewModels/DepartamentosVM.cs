@@ -1,12 +1,11 @@
-﻿using CRUD_Personas_Entidades;
+﻿using CRUD_Personas_BL.Gestora;
+using CRUD_Personas_BL.Listado;
+using CRUD_Personas_Entidades;
+using CRUD_Personas_UWP.ViewModels.Utilidades;
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
-using CRUD_Personas_BL.Listado;
-using CRUD_Personas_UWP.ViewModels.Utilidades;
-using CRUD_Personas_BL.Gestora;
 using Windows.UI.Xaml.Controls;
-using System.Threading.Tasks;
 
 namespace CRUD_Personas_UWP.ViewModels
 {
@@ -16,8 +15,6 @@ namespace CRUD_Personas_UWP.ViewModels
         ObservableCollection<Departamento> listadoDepartamentosCompleto;
         ObservableCollection<Departamento> listadoDepartamentosOfrecido;
         Departamento departamentoSeleccionado;
-        private DelegateCommand buscarCommand;
-        private string txbBarraBusqueda;
         DelegateCommand anhadirCommand;
         DelegateCommand borrarCommand;
         DelegateCommand editarCommand;
@@ -45,25 +42,16 @@ namespace CRUD_Personas_UWP.ViewModels
 
         #region propiedades publicas
         public ObservableCollection<Departamento> ListadoDepartamentosCompleto { get => listadoDepartamentosCompleto; set => listadoDepartamentosCompleto = value; }
-        public ObservableCollection<Departamento> ListadoDepartamentosOfrecido { get => listadoDepartamentosOfrecido; set => listadoDepartamentosOfrecido = value; }
-        public string TxbBarraBusqueda
+        public ObservableCollection<Departamento> ListadoDepartamentosOfrecido 
         {
-            get => txbBarraBusqueda;
-            set
+            get 
             {
-                txbBarraBusqueda = value;
-                NotifyPropertyChanged("TxbBarraBusqueda");
-                buscarCommand.RaiseCanExecuteChanged();
+                nomostrarDepartamentoPorDefecto();
+                NotifyPropertyChanged("ListadoDepartamentosOfrecido");
+                return listadoDepartamentosOfrecido; 
             }
-        }
-        public DelegateCommand BuscarCommand
-        {
-            get
-            {
-                buscarCommand = new DelegateCommand(BuscarCommand_Executed, PuedeEjercutarBuscarCommand);
-                return buscarCommand;
-            }
-            set => buscarCommand = value;
+
+            set => listadoDepartamentosOfrecido = value; 
         }
         public DelegateCommand AnhadirCommand
         {
@@ -118,33 +106,12 @@ namespace CRUD_Personas_UWP.ViewModels
                 borrarCommand.RaiseCanExecuteChanged();
             }
         }
-        
+
         #endregion
 
         #region commands
 
         #region canExecuted
-        /// <summary>
-        ///     <cabecera>private bool PuedeEjercutarBuscarCommand()</cabecera>
-        ///     <descripcion>
-        ///         Método para comprobar que el command buscar se puede ejecutar.
-        ///         El boton se habilitará si la cadena txbBarraBusqueda es diferente de nula o no esta vacía
-        ///     </descripcion>
-        /// </summary>
-        /// <returns></returns>
-        private bool PuedeEjercutarBuscarCommand()
-        {
-            bool valido = true;
-
-            if (String.IsNullOrEmpty(txbBarraBusqueda))//aprovecho que hago la comprobación de si es nulo el textbox para eso
-            {
-                valido = false;
-                listadoDepartamentosOfrecido = listadoDepartamentosCompleto;
-                NotifyPropertyChanged("ListadoDepartamentosOfrecido");
-            }
-            return valido;
-        }
-
         /// <summary>
         ///     <cabecera>private bool PuedeEjercutarCommandBar()</cabecera>
         ///     <descripcion>
@@ -166,21 +133,6 @@ namespace CRUD_Personas_UWP.ViewModels
         #endregion
 
         #region executed
-        /// <summary>
-        ///     <cabecera>private void BuscarCommand_Executed()</cabecera>
-        ///     <descripcion>
-        ///         Método para realizar la función del command buscar al ser ejecutado.
-        ///         El command busca en la lista de departamentos, aquellos nombres que contengan el contenido del textbox txbBarraBusqueda
-        ///     </descripcion> 
-        /// </summary>
-        private void BuscarCommand_Executed()
-        {
-            listadoDepartamentosOfrecido = new ObservableCollection<Departamento>(from d in listadoDepartamentosCompleto
-                                                                                  where d.Nombre.ToLower().Contains(txbBarraBusqueda.ToLower())
-                                                                                  select d);
-            NotifyPropertyChanged("ListadoDepartamentosOfrecido");
-        }
-
         /// <summary>
         ///     <cabecera>private void AnhadirCommand_Executed()</cabecera>
         ///     <descripcion>
@@ -306,7 +258,7 @@ namespace CRUD_Personas_UWP.ViewModels
                     GestoraDepartamentosBL.updatedepartamentoDAL(departamentoSeleccionado);
                 }
                 NotifyPropertyChanged("DepartamentoSeleccionado");
-                listadoDepartamentosOfrecido = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
+                nomostrarDepartamentoPorDefecto();
                 NotifyPropertyChanged("ListadoDepartamentosOfrecido");
             }
             catch (Exception)
@@ -331,6 +283,19 @@ namespace CRUD_Personas_UWP.ViewModels
                 CloseButtonText = "Ok"
             };
             ContentDialogResult respuesta = await mensajeError.ShowAsync();
+        }
+
+        /// <summary>
+        ///     <cabecera>private void nomostrarDepartamentoSinnombre()</cabecera>
+        ///     <descripcion>
+        ///         Método para llenar la lista de departamentos a ofrecer.
+        ///         Carga todos los departamentos menos el por defecto, que no se puede modificar
+        ///     </descripcion> 
+        /// </summary>
+        private void nomostrarDepartamentoPorDefecto()
+        {
+            listadoDepartamentosOfrecido = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
+            listadoDepartamentosOfrecido.RemoveAt(0);
         }
         #endregion
     }

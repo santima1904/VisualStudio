@@ -5,7 +5,12 @@
       "ProjectGuid": "25ce6f68-2774-44fc-a634-3f98ca04928d",
       "DisplayName": "Ejercicio3",
       "ColorIndex": 0
+    },
+    "dd34218c-1c89-469c-a23b-9121add2adb9": {
+      "ProjectGuid": "dd34218c-1c89-469c-a23b-9121add2adb9",
+      "DisplayName": "Ejercicio1_UI",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
