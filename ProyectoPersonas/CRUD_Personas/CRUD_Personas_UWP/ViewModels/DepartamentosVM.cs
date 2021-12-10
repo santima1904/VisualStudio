@@ -4,7 +4,6 @@ using CRUD_Personas_Entidades;
 using CRUD_Personas_UWP.ViewModels.Utilidades;
 using System;
 using System.Collections.ObjectModel;
-using System.Linq;
 using Windows.UI.Xaml.Controls;
 
 namespace CRUD_Personas_UWP.ViewModels
@@ -32,6 +31,8 @@ namespace CRUD_Personas_UWP.ViewModels
             {
                 this.listadoDepartamentosCompleto = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
                 this.listadoDepartamentosOfrecido = listadoDepartamentosCompleto;
+                nomostrarDepartamentoPorDefecto();
+                NotifyPropertyChanged("ListadoDepartamentosOfrecido");
             }
             catch (Exception)
             {
@@ -43,17 +44,7 @@ namespace CRUD_Personas_UWP.ViewModels
 
         #region propiedades publicas
         public ObservableCollection<Departamento> ListadoDepartamentosCompleto { get => listadoDepartamentosCompleto; set => listadoDepartamentosCompleto = value; }
-        public ObservableCollection<Departamento> ListadoDepartamentosOfrecido
-        {
-            get
-            {
-                nomostrarDepartamentoPorDefecto();
-                NotifyPropertyChanged("ListadoDepartamentosOfrecido");
-                return listadoDepartamentosOfrecido;
-            }
-
-            set => listadoDepartamentosOfrecido = value;
-        }
+        public ObservableCollection<Departamento> ListadoDepartamentosOfrecido { get => listadoDepartamentosOfrecido; set => listadoDepartamentosOfrecido = value; }
         public DelegateCommand AnhadirCommand
         {
             get
@@ -268,6 +259,8 @@ namespace CRUD_Personas_UWP.ViewModels
                 {
                     GestoraDepartamentosBL.updatedepartamentoDAL(departamentoSeleccionado);
                 }
+                listadoDepartamentosOfrecido = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
+                nomostrarDepartamentoPorDefecto();
                 NotifyPropertyChanged("DepartamentoSeleccionado");
                 NotifyPropertyChanged("ListadoDepartamentosOfrecido");
             }
@@ -275,7 +268,7 @@ namespace CRUD_Personas_UWP.ViewModels
             {
                 generarMensajeErrorAsync();
             }
-            nomostrarDepartamentoPorDefecto();
+            
         }
 
         /// <summary>
@@ -289,7 +282,7 @@ namespace CRUD_Personas_UWP.ViewModels
             ContentDialog mensajeError = new ContentDialog()
             {
                 Title = "Error",
-                Content = "Ha ocurrido un error,espere a que se solucione",
+                Content = "Ha ocurrido un error",
                 CloseButtonText = "Ok"
             };
             await mensajeError.ShowAsync();
@@ -298,8 +291,7 @@ namespace CRUD_Personas_UWP.ViewModels
         /// <summary>
         ///     <cabecera>private void nomostrarDepartamentoSinnombre()</cabecera>
         ///     <descripcion>
-        ///         Método para llenar la lista de departamentos a ofrecer.
-        ///         Carga todos los departamentos menos el por defecto, que no se puede modificar
+        ///         Método para borrar el primer departamento de la lista a ofrecer ya que no queremos que se modifique 
         ///     </descripcion> 
         /// </summary>
         private void nomostrarDepartamentoPorDefecto()

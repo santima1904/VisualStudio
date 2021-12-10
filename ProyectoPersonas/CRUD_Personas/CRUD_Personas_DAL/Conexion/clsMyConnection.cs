@@ -33,7 +33,7 @@ namespace CRUD_Personas_DAL.Conexion
         {           
             this.server = "santimaserver.database.windows.net";
             this.dataBase = "BaseDatosAzure";
-            this.user = "saboresdelatierr";            
+            this.user = "saboresdelatierra";            
             this.pass = "#Mitesoro";
 
         }

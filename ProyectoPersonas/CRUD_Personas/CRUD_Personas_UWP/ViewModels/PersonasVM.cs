@@ -6,7 +6,6 @@ using CRUD_Personas_BL.Listado;
 using System.Collections.ObjectModel;
 using CRUD_Personas_UWP.ViewModels.Utilidades;
 using Windows.UI.Xaml.Controls;
-using System.Threading.Tasks;
 
 namespace CRUD_Personas_UWP.ViewModels
 {
@@ -38,7 +37,6 @@ namespace CRUD_Personas_UWP.ViewModels
                 this.listadoPersonasCompleto = clsListadoPersonasBL.obtenerListadoPersonasCompleto_BL();
                 this.listadoDepartamentosCompleto = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
                 this.listadoPersonasOfrecido = listadoPersonasCompleto;
-
             }
             catch (Exception)
             {
@@ -51,12 +49,7 @@ namespace CRUD_Personas_UWP.ViewModels
         public ObservableCollection<clsPersona> ListadoPersonasCompleto { get => listadoPersonasCompleto; set => listadoPersonasCompleto = value; }
         public ObservableCollection<Departamento> ListadoDepartamentosCompleto { get => listadoDepartamentosCompleto; set => listadoDepartamentosCompleto = value; }
         public ObservableCollection<clsPersona> ListadoPersonasOfrecido { get => listadoPersonasOfrecido; set => listadoPersonasOfrecido = value; }
-        public string NombreDepartamento
-        {
-            get { return nombreDepartamento; }
-            set { nombreDepartamento = value; }
-        }
-
+        public string NombreDepartamento { get => nombreDepartamento; set => nombreDepartamento = value; }      
         public string TxbBarraBusqueda
         {
             get => txbBarraBusqueda;
@@ -67,7 +60,6 @@ namespace CRUD_Personas_UWP.ViewModels
                 buscarCommand.RaiseCanExecuteChanged();
             }
         }
-
         public DelegateCommand BuscarCommand
         {
             get
@@ -373,11 +365,8 @@ namespace CRUD_Personas_UWP.ViewModels
                 CloseButtonText = "Ok"
             };
 
-            ContentDialogResult respuesta = await mensajeError.ShowAsync();
-
+            await mensajeError.ShowAsync();
         }
-
-       
         #endregion
     }
 }

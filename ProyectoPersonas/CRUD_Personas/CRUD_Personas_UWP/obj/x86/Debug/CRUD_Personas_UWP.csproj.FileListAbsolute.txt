@@ -155,3 +155,8 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\FotoSaludo.g.cs
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\FotoSaludo.xaml
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\FotoSaludo.xbf
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\FotoSaludo.xbf
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\FotoSaludo.g.i.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\FotoSaludo.g.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\FotoSaludo.xaml
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\obj\x86\Debug\Views\FotoSaludo.xbf

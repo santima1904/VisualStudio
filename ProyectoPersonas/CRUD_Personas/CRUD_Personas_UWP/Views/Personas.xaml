@@ -25,15 +25,18 @@
             <AppBarButton Icon="Edit" Command="{Binding EditarCommand}"/>
             <AppBarButton Icon="Delete" Command="{Binding BorrarCommand}"/>
         </CommandBar>
-        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
-                      RelativePanel.RightOf="btnFind" Visibility="{Binding VisibilityAnhadir}"/>
-        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
-                      RelativePanel.RightOf="btnFind" Visibility="{Binding VisibilityEditar}"/>
+        
+        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Label="Guardar" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
+                       RelativePanel.AlignRightWith="grdFormulario" Visibility="{Binding VisibilityAnhadir}"/>
+        <AppBarButton Margin="30,10,30,20" Background="#FAD7A0" Icon="Save" Label="Guardar" Command="{Binding GuardarCommand}" RelativePanel.Below="commandbar"
+                      RelativePanel.AlignRightWith="grdFormulario" Visibility="{Binding VisibilityEditar}"/>
+        
         <TextBox x:Name="txbbarraBusqueda" RelativePanel.Below="commandbar" RelativePanel.AlignLeftWithPanel="True" 
                       MinWidth="150" VerticalAlignment="Center" Margin="40,20,0,10"
                       Text="{Binding TxbBarraBusqueda, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
         <AppBarButton x:Name="btnFind" Icon="Find" Command="{Binding BuscarCommand}" RelativePanel.Below="commandbar" RelativePanel.RightOf="txbbarraBusqueda"
                       Margin="0,15,0,0"/>
+        
         <ListView x:Name="lstLista" ItemsSource="{Binding ListadoPersonasOfrecido, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding PersonaSeleccionada, Mode=TwoWay,
             UpdateSourceTrigger=PropertyChanged}"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True"
             RelativePanel.Below="txbbarraBusqueda" ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="20">
@@ -46,6 +49,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        
         <Grid x:Name="grdFormulario" RelativePanel.RightOf="lstLista" RelativePanel.Below="txbbarraBusqueda" Margin="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>

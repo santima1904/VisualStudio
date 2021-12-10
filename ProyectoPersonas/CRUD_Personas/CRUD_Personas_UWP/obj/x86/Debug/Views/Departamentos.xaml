@@ -19,7 +19,8 @@
             <AppBarButton Icon="Edit" Command="{Binding EditarCommand}"/>
             <AppBarButton Icon="Delete" Command="{Binding BorrarCommand}"/>
         </CommandBar>
-        <CommandBar RelativePanel.RightOf="commandbar" Margin="20,0" RelativePanel.AlignTopWithPanel="True" Background="#FAD7A0" OverflowButtonVisibility="Collapsed">
+        
+        <CommandBar  Margin="20,0" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignRightWith="grdFormulario" Background="#FAD7A0" OverflowButtonVisibility="Collapsed">
             <AppBarButton  Icon="Save" Command="{Binding GuardarCommand}" Visibility="{Binding VisibilityAnhadir}"/>
             <AppBarButton  Icon="Save" Command="{Binding GuardarCommand}" Visibility="{Binding VisibilityEditar}"/>
         </CommandBar>
@@ -35,6 +36,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        
         <Grid x:ConnectionId='4' x:Name="grdFormulario" RelativePanel.RightOf="lstLista" RelativePanel.Below="commandbar" Margin="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -46,7 +48,6 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.Row="0" Grid.Column="0" Margin="15" HorizontalTextAlignment="Right">Nombre:</TextBlock>
-
             <TextBlock x:ConnectionId='5' x:Name="txtNombre"  Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,15" Text="{Binding DepartamentoSeleccionado.Nombre}" TextWrapping="Wrap" Visibility="{Binding VisibilityDetalles}"/>
             <TextBox x:ConnectionId='6' x:Name="txbNombre"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding DepartamentoSeleccionado.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityAnhadir}"/>
             <TextBox x:ConnectionId='7' x:Name="txbNombreEditar"  Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding DepartamentoSeleccionado.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
