@@ -14,12 +14,14 @@
     </Page.Resources>
     
     <RelativePanel>
-        <NavigationView Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
+        <NavigationView Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
             <NavigationView.MenuItems>
                 <NavigationViewItem x:Name="nvwPersonas" Icon="Contact" Content="Personas" Tag="Personas" Tapped="NavigationViewItem_Tapped"/>
                 <NavigationViewItem x:Name="nvwDepartamentos" Icon="Manage" Content="Departamentos" Tag="Departamentos" Tapped="NavigationViewItem_Tapped"/>
             </NavigationView.MenuItems>
-            <Frame x:Name="contentFrame" />
+            <Frame x:Name="contentFrame" RelativePanel.RightOf="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" />
         </NavigationView>
+        <Image Source="/Assets/Images/pez.jpg" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="10"/>
+        <!--retocar despues, falta poner la foto-->
     </RelativePanel>
 </Page>

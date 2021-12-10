@@ -93,7 +93,6 @@
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
             </ComboBox>
-
             <TextBox x:Name="txtNombreEditar" Grid.Row="0" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
             <TextBox x:Name="txtApellidosEditar" Grid.Row="1" Grid.Column="1" Margin="10" Text="{Binding PersonaSeleccionada.Apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" Visibility="{Binding VisibilityEditar}"/>
             <DatePicker x:Name="txtFechaNacEditar" Grid.Row="2" Grid.Column="1" Margin="10" SelectedDate="{Binding PersonaSeleccionada.FechaNac, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource convertirFecha}}" Visibility="{Binding VisibilityEditar}"/>

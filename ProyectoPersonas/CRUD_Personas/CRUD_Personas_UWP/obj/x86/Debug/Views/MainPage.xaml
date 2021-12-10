@@ -14,13 +14,15 @@
     </Page.Resources>
     
     <RelativePanel>
-        <NavigationView x:ConnectionId='2' Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
+        <NavigationView x:ConnectionId='2' Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
             <NavigationView.MenuItems>
                 <NavigationViewItem x:ConnectionId='3' x:Name="nvwPersonas" Icon="Contact" Content="Personas" Tag="Personas"                                   />
                 <NavigationViewItem x:ConnectionId='4' x:Name="nvwDepartamentos" Icon="Manage" Content="Departamentos" Tag="Departamentos"                                   />
             </NavigationView.MenuItems>
-            <Frame x:ConnectionId='5' x:Name="contentFrame" />
+            <Frame x:ConnectionId='5' x:Name="contentFrame" RelativePanel.RightOf="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" />
         </NavigationView>
+        <Image Source="/Assets/Images/pez.jpg" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="10"/>
+
     </RelativePanel>
 </Page>
 

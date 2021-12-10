@@ -125,7 +125,7 @@ namespace CRUD_Personas_UWP.ViewModels
                     NotifyPropertyChanged("NombreDepartamento");
                 }
                 if (visibilityAnhadir == "Visible")//esta condicion la hago para que en el caso de añadir persona,
-                                                   //si seleccionas uan persona se cambie a editar, en vez de crear una nueva persona con los datos de la previa
+                                                   //si seleccionas una persona se cambie a editar, en vez de crear una nueva persona con los datos de la previa
                 {
                     visibilityAnhadir = "Collapsed";
                     visibilityDetalles = "Collapsed";

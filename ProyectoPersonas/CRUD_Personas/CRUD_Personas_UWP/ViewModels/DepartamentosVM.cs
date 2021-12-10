@@ -99,6 +99,16 @@ namespace CRUD_Personas_UWP.ViewModels
             set
             {
                 departamentoSeleccionado = value;
+                if (visibilityAnhadir == "Visible")//esta condicion la hago para que en el caso de añadir depaartamento,
+                                                   //si seleccionas un departamento se cambie a editar, en vez de crear un nuevo departamento con los datos de el previo
+                {
+                    visibilityAnhadir = "Collapsed";
+                    visibilityDetalles = "Collapsed";
+                    visibilityEditar = "Visible";
+                    NotifyPropertyChanged("VisibilityAnhadir");
+                    NotifyPropertyChanged("VisibilityDetalles");
+                    NotifyPropertyChanged("VisibilityEditar");
+                }
                 NotifyPropertyChanged("DepartamentoSeleccionado");
                 anhadirCommand.RaiseCanExecuteChanged();
                 editarCommand.RaiseCanExecuteChanged();

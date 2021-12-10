@@ -32,7 +32,7 @@ namespace CRUD_Personas_UWP
             NavigationViewItem navigationView = sender as NavigationViewItem;
             try
             {
-                if(navigationView.Name == "nvwPersonas")
+                if (navigationView.Name == "nvwPersonas")
                 {
                     contentFrame.Navigate(typeof(CRUD_Personas_UWP.Views.Personas));
                 }

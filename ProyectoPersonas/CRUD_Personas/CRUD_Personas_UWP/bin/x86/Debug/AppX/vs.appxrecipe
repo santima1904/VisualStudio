@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-10T07:42:03.228</Modified>
+      <Modified>2021-12-10T11:40:59.029</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\CRUD_Personas_UWP.exe">
       <PackagePath>entrypoint\CRUD_Personas_UWP.exe</PackagePath>
-      <Modified>2021-12-10T07:42:02.670</Modified>
+      <Modified>2021-12-10T11:40:58.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -73,6 +73,10 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Assets\Images\pez.jpg">
+      <PackagePath>Assets\Images\pez.jpg</PackagePath>
+      <Modified>2021-12-10T11:39:39.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -114,27 +118,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\CRUD_Personas_UWP.xr.xml">
       <PackagePath>CRUD_Personas_UWP.xr.xml</PackagePath>
-      <Modified>2021-12-10T07:42:02.596</Modified>
+      <Modified>2021-12-10T11:22:22.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-12-10T07:42:02.613</Modified>
+      <Modified>2021-12-10T11:40:58.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Departamentos.xbf">
       <PackagePath>Views\Departamentos.xbf</PackagePath>
-      <Modified>2021-12-10T07:42:02.613</Modified>
+      <Modified>2021-12-10T11:40:58.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Error.xbf">
       <PackagePath>Views\Error.xbf</PackagePath>
-      <Modified>2021-12-10T07:42:02.613</Modified>
+      <Modified>2021-12-10T11:40:58.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-12-10T07:42:02.614</Modified>
+      <Modified>2021-12-10T11:40:58.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Personas.xbf">
       <PackagePath>Views\Personas.xbf</PackagePath>
-      <Modified>2021-12-10T07:42:02.613</Modified>
+      <Modified>2021-12-10T11:40:58.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -142,11 +146,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-12-09T07:21:10.424</Modified>
+      <Modified>2021-12-10T11:40:58.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\CRUD_Personas_UWP.exe">
       <PackagePath>CRUD_Personas_UWP.exe</PackagePath>
-      <Modified>2021-12-10T07:42:03.225</Modified>
+      <Modified>2021-12-10T11:40:59.027</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
