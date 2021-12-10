@@ -11,6 +11,7 @@ App.xbf
 CRUD_Personas_UWP.xr.xml
 Views\Departamentos.xbf
 Views\Error.xbf
+Views\FotoSaludo.xbf
 Views\MainPage.xbf
 Views\Personas.xbf
 Properties\Default.rd.xml

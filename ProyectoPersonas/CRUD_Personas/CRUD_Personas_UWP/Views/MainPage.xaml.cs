@@ -25,6 +25,7 @@ namespace CRUD_Personas_UWP
         public MainPage()
         {
             this.InitializeComponent();
+            contentFrame.Navigate(typeof(CRUD_Personas_UWP.Views.FotoSaludo));
         }
 
         private void NavigationViewItem_Tapped(object sender, TappedRoutedEventArgs e)

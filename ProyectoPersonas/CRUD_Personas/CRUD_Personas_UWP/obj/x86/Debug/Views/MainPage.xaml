@@ -21,8 +21,6 @@
             </NavigationView.MenuItems>
             <Frame x:ConnectionId='5' x:Name="contentFrame" RelativePanel.RightOf="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" />
         </NavigationView>
-        <Image Source="/Assets/Images/pez.jpg" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" Margin="10"/>
-
     </RelativePanel>
 </Page>
 

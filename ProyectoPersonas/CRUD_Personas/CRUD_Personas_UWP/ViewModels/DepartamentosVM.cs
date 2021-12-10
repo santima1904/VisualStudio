@@ -33,25 +33,26 @@ namespace CRUD_Personas_UWP.ViewModels
                 this.listadoDepartamentosCompleto = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
                 this.listadoDepartamentosOfrecido = listadoDepartamentosCompleto;
             }
-            catch (Exception) 
+            catch (Exception)
             {
                 generarMensajeErrorAsync();
-            }         
+            }
+
         }
         #endregion
 
         #region propiedades publicas
         public ObservableCollection<Departamento> ListadoDepartamentosCompleto { get => listadoDepartamentosCompleto; set => listadoDepartamentosCompleto = value; }
-        public ObservableCollection<Departamento> ListadoDepartamentosOfrecido 
+        public ObservableCollection<Departamento> ListadoDepartamentosOfrecido
         {
-            get 
+            get
             {
                 nomostrarDepartamentoPorDefecto();
                 NotifyPropertyChanged("ListadoDepartamentosOfrecido");
-                return listadoDepartamentosOfrecido; 
+                return listadoDepartamentosOfrecido;
             }
 
-            set => listadoDepartamentosOfrecido = value; 
+            set => listadoDepartamentosOfrecido = value;
         }
         public DelegateCommand AnhadirCommand
         {
@@ -268,13 +269,13 @@ namespace CRUD_Personas_UWP.ViewModels
                     GestoraDepartamentosBL.updatedepartamentoDAL(departamentoSeleccionado);
                 }
                 NotifyPropertyChanged("DepartamentoSeleccionado");
-                nomostrarDepartamentoPorDefecto();
                 NotifyPropertyChanged("ListadoDepartamentosOfrecido");
             }
             catch (Exception)
             {
                 generarMensajeErrorAsync();
             }
+            nomostrarDepartamentoPorDefecto();
         }
 
         /// <summary>
@@ -288,11 +289,10 @@ namespace CRUD_Personas_UWP.ViewModels
             ContentDialog mensajeError = new ContentDialog()
             {
                 Title = "Error",
-                Content = "Ha ocurrido un error" +
-                ", espere a que se solucione",
+                Content = "Ha ocurrido un error,espere a que se solucione",
                 CloseButtonText = "Ok"
             };
-            ContentDialogResult respuesta = await mensajeError.ShowAsync();
+            await mensajeError.ShowAsync();
         }
 
         /// <summary>
@@ -303,9 +303,8 @@ namespace CRUD_Personas_UWP.ViewModels
         ///     </descripcion> 
         /// </summary>
         private void nomostrarDepartamentoPorDefecto()
-        {
-            listadoDepartamentosOfrecido = clsDepartamentosBL.obtenerListadoDepartamentosCompleto_BL();
-            listadoDepartamentosOfrecido.RemoveAt(0);
+        { 
+         listadoDepartamentosOfrecido.RemoveAt(0);
         }
         #endregion
     }

@@ -141,6 +141,7 @@
       <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="CRUD_Personas_UWP.Views.Error" />
+    <RootType FullName="CRUD_Personas_UWP.Views.FotoSaludo" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
     </RootType>
