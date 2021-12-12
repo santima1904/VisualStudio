@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "51c39a19-912f-43af-a720-d39863d15146": {
+      "ProjectGuid": "51c39a19-912f-43af-a720-d39863d15146",
+      "DisplayName": "Santiago_Martinez_Examen_UI",
+      "ColorIndex": 0
+    },
+    "94962817-57ae-40ce-8ee5-d03495b38cee": {
+      "ProjectGuid": "94962817-57ae-40ce-8ee5-d03495b38cee",
+      "DisplayName": "Santiago_Martinez_Examen_Entidades",
+      "ColorIndex": 1
+    },
+    "f1f66120-f8d4-471a-8658-f5f63e120a4b": {
+      "ProjectGuid": "f1f66120-f8d4-471a-8658-f5f63e120a4b",
+      "DisplayName": "Santiago_Martinez_Examen_DAL",
+      "ColorIndex": 2
+    },
+    "26fb7b0f-5092-4c08-a2db-81e73603153c": {
+      "ProjectGuid": "26fb7b0f-5092-4c08-a2db-81e73603153c",
+      "DisplayName": "Santiago_Martinez_Examen_BL",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "epfQOrotZxH5g1eoy+lqbdMDmDM69XuCxK6wSbLYBj+paPTZ/J6caR3q5WuRd1Jnlak82uYZYRLLffVG+74/IQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TESTER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\TESTER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

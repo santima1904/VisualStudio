@@ -261,7 +261,7 @@ namespace CRUD_Personas_UWP.ViewModels
             ContentDialog confirmarBorrar = new ContentDialog()
             {
                 Title = "Borrar persona",
-                Content = " ",
+                Content = "¿Estás seguro que desea borrar esta persona?",
                 SecondaryButtonText = "Sí",
                 CloseButtonText = "No"
             };
