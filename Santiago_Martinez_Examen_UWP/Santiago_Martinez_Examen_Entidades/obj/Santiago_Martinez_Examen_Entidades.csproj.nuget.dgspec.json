@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj": {}
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj": {
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj",
         "projectName": "Santiago_Martinez_Examen_Entidades",
-        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj",
-        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\obj\\",
+        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj",
+        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

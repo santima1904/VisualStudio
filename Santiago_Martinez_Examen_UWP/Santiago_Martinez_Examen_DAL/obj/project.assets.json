@@ -872,25 +872,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TESTER\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\smartinez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_DAL\\Santiago_Martinez_Examen_DAL.csproj",
+      "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_DAL\\Santiago_Martinez_Examen_DAL.csproj",
       "projectName": "Santiago_Martinez_Examen_DAL",
-      "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_DAL\\Santiago_Martinez_Examen_DAL.csproj",
-      "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_DAL\\obj\\",
+      "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_DAL\\Santiago_Martinez_Examen_DAL.csproj",
+      "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -903,8 +906,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj": {
-              "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj"
+            "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj": {
+              "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Santiago_Martinez_Examen_UWP\\Santiago_Martinez_Examen_Entidades\\Santiago_Martinez_Examen_Entidades.csproj"
             }
           }
         }

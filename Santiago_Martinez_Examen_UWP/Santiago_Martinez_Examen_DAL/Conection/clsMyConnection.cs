@@ -31,8 +31,8 @@ namespace CRUD_Personas_DAL.Conexion
 
         public clsMyConnection()
         {           
-            this.server = "server";
-            this.dataBase = "Nombre base de datos";
+            this.server = "107-12\\SQLEXPRESS";
+            this.dataBase = "FrayGuillermo";
             this.user = "prueba";            
             this.pass = "123";
 

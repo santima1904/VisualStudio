@@ -5,10 +5,49 @@
     xmlns:local="using:Santiago_Martinez_Examen_UI"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm ="using:Santiago_Martinez_Examen_UI.ViewModels"
+    xmlns:converters="using:Santiago_Martinez_Examen_UI.ViewModels.Utilidades.Converters"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="#FEF5E7">
 
-    <Grid>
+    <Page.DataContext>
+        <vm:MainPageVM/>
+    </Page.DataContext>
+    <Page.Resources>
+        <converters:converterDate x:Key="convertirSoloFecha"/>
+    </Page.Resources>
 
-    </Grid>
+    <RelativePanel>
+        <TextBlock x:Name="txtFecha" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" Margin="40" Text="{Binding ContabilidadDia.Fecha, Converter={StaticResource convertirSoloFecha}}" />
+        <AppBarButton x:Name="btnGuardar" Icon="Save" RelativePanel.AlignTopWithPanel="True" RelativePanel.RightOf="txtFecha" Margin="50,25" Command="{Binding GuardarRecaudacion}"/>
+        <ListView x:Name="lstLista" ItemsSource="{Binding ListadoPlantasConCantidad, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" RelativePanel.AlignLeftWithPanel="True" RelativePanel.Below="txtFecha"
+            ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="20">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="Nombre:" Margin="5, 5"/>
+                        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding Nombre}" Margin="0, 5, 0,0"/>
+                        <TextBlock Grid.Column="2" Grid.Row="0" Text="Precio:" Margin="15, 5, 5,0"/>
+                        <TextBlock Grid.Column="3" Grid.Row="0" Text="{Binding Precio}" Margin="0, 5, 0,0"/>
+                        <TextBlock Grid.Column="4" Grid.Row="0" Text="Cantidad:" Margin="15, 5,5,0"/>
+                        <TextBox Grid.Column="5" Grid.Row="0"  Text="{Binding Cantidad, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,25"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBox x:Name="txbDineroDado" Header="Dinero dado" RelativePanel.Below="lstLista" RelativePanel.AlignLeftWithPanel="True" Margin="20" Text="{Binding ContabilidadDia.RecaudacionDada, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <Button x:Name="btnCalcular" MinHeight="25" MinWidth="50" Content="Calcular" RelativePanel.RightOf="txbDineroDado"  RelativePanel.Below="lstLista" Margin="20,43" Command="{Binding CalcularRecaudacion}"/>
+        <TextBlock RelativePanel.RightOf="btnCalcular" RelativePanel.Below="lstLista" Margin="20,50" Text="{Binding ContabilidadDia.RecaudacionReal,UpdateSourceTrigger=PropertyChanged}" Visibility="{Binding VisibilidadResultado, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+    </RelativePanel>
 </Page>
