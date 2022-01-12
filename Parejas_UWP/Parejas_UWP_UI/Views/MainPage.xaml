@@ -5,10 +5,25 @@
     xmlns:local="using:Parejas_UWP_UI"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:Parejas_UWP_UI.ViewModels"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="#FAF1F5">
 
-    <Grid>
+    <Page.DataContext>
+        <vm:MainPageVM/>
+    </Page.DataContext>
 
-    </Grid>
+    <RelativePanel>
+        <StackPanel x:Name="stkbarra" Background="#9a3c39" Orientation="Horizontal" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.AlignTopWithPanel="True" Padding="10">
+            <Button Content="Nueva partida" Margin="10"/>
+            <TextBlock Text="Intentos: " HorizontalAlignment="Center" Margin="10"/>
+            <TextBlock/>
+            <TextBlock Text="Tiempo: " Margin="10"/>
+            <TextBlock/>
+        </StackPanel>
+        <GridView x:Name="gridCartas" ItemsSource="{Binding ListadoCartas}">
+
+        </GridView>
+    </RelativePanel>
 </Page>
