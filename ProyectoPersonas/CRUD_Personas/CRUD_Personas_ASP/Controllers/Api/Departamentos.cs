@@ -42,28 +42,76 @@ namespace CRUD_Personas_ASP.Controllers.Api
         [HttpGet("{id}")]
         public Departamento Get(int id)
         {
-            return clsDepartamentosBL.obtenerDepartamentoBL(id);
+            Departamento departamento;
+            try
+            {
+                departamento = clsDepartamentosBL.obtenerDepartamentoBL(id);
+            }
+            catch (Exception)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+
+            if (departamento == null)
+            {
+                throw new HttpResponseException(HttpStatusCode.NoContent);
+            }
+            
+            return departamento;
         }
 
         // POST api/<Departamentos>
         [HttpPost]
         public void Post([FromBody] Departamento departamento)
         {
-            GestoraDepartamentosBL.insertdepartamentoBL(departamento);  
+           
+            try
+            {
+                GestoraDepartamentosBL.insertdepartamentoBL(departamento);
+            }
+            catch (Exception)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+
+            if (departamento == null)
+            {
+                throw new HttpResponseException(HttpStatusCode.NoContent);
+            }
         }
 
         // PUT api/<Departamentos>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Departamento departamento)
         {
-            GestoraDepartamentosBL.updatedepartamentoDAL(departamento);
+            try
+            {
+                GestoraDepartamentosBL.updatedepartamentoDAL(departamento);
+            }
+            catch (Exception)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+
+            if (departamento == null)
+            {
+                throw new HttpResponseException(HttpStatusCode.NoContent);
+            }
         }
 
         // DELETE api/<Departamentos>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            GestoraDepartamentosBL.deletedepartamentoBL(id);
+
+            try
+            {
+                GestoraDepartamentosBL.deletedepartamentoBL(id);
+            }
+            catch (Exception)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }   
         }
     }
 }

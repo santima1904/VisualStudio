@@ -11,3 +11,16 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.csproj.CopyComplete
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.pdb
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\bin\Release\netstandard2.0\CRUD_Personas_DAL.deps.json
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\bin\Release\netstandard2.0\CRUD_Personas_DAL.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\bin\Release\netstandard2.0\CRUD_Personas_DAL.pdb
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\bin\Release\netstandard2.0\CRUD_Personas_Entidades.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\bin\Release\netstandard2.0\CRUD_Personas_Entidades.pdb
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.csproj.AssemblyReference.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.AssemblyInfoInputs.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.AssemblyInfo.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.csproj.CoreCompileInputs.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.csproj.CopyComplete
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_DAL\obj\Release\netstandard2.0\CRUD_Personas_DAL.pdb
