@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_UI\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D282E641CD2FAEF2351D4D554E984AF94D2DDD1E5503AB1CDBF2EA6469D569C7</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>750C21A5C75FDE77B82445BD354716DF33784F3446AD04A2B5B7A354549E70FE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c8674f07-38a2-44eb-8748-5c4a71cc2d7f_1.0.0.0_x86__sv647z9hw2app</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c8674f07-38a2-44eb-8748-5c4a71cc2d7f_sv647z9hw2app!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c8674f07-38a2-44eb-8748-5c4a71cc2d7f</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_UI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-13T13:24:13.442</Modified>
+      <Modified>2021-12-20T11:11:06.836</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_UI\bin\x86\Debug\Santiago_Martinez_Examen_UI.exe">
       <PackagePath>entrypoint\Santiago_Martinez_Examen_UI.exe</PackagePath>
-      <Modified>2021-12-13T13:24:12.874</Modified>
+      <Modified>2021-12-20T11:11:05.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -60,7 +60,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_BL\bin\Debug\netstandard2.0\Santiago_Martinez_Examen_BL.dll">
       <PackagePath>Santiago_Martinez_Examen_BL.dll</PackagePath>
-      <Modified>2021-12-13T13:24:09.847</Modified>
+      <Modified>2021-12-20T11:11:01.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_Entidades\bin\Debug\netstandard2.0\Santiago_Martinez_Examen_Entidades.dll">
       <PackagePath>Santiago_Martinez_Examen_Entidades.dll</PackagePath>
@@ -68,7 +68,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_BL\bin\Debug\netstandard2.0\Santiago_Martinez_Examen_DAL.dll">
       <PackagePath>Santiago_Martinez_Examen_DAL.dll</PackagePath>
-      <Modified>2021-12-13T13:24:09.726</Modified>
+      <Modified>2021-12-20T11:11:01.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -118,11 +118,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_UI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-12-13T13:24:12.806</Modified>
+      <Modified>2021-12-20T11:11:05.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_UI\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-12-13T13:24:12.810</Modified>
+      <Modified>2021-12-20T11:11:05.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -130,11 +130,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_UI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-12-13T11:44:26.542</Modified>
+      <Modified>2021-12-20T11:11:06.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Santiago_Martinez_Examen_UWP\Santiago_Martinez_Examen_UI\bin\x86\Debug\Core\Santiago_Martinez_Examen_UI.exe">
       <PackagePath>Santiago_Martinez_Examen_UI.exe</PackagePath>
-      <Modified>2021-12-13T13:24:13.440</Modified>
+      <Modified>2021-12-20T11:11:06.833</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

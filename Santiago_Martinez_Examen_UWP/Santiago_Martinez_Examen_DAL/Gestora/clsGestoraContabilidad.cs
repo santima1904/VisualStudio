@@ -46,8 +46,7 @@ namespace Santiago_Martinez_Examen_DAL.Gestora
                         miComando.Parameters.Add("@recaudacionReal", System.Data.SqlDbType.VarChar).Value = System.DBNull.Value;
                     }
                 
-                
-
+               
                 miComando.CommandText = "INSERT INTO contabilidad VALUES(@fecha,@recaudacionDada,@recaudacionReal)";
                 miComando.Connection = connection;
                 resultado = miComando.ExecuteNonQuery();

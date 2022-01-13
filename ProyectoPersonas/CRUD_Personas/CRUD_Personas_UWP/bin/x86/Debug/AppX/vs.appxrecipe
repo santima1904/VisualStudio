@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-14T10:59:29.535</Modified>
+      <Modified>2021-12-15T12:10:43.147</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -122,27 +122,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-12-14T10:59:28.044</Modified>
+      <Modified>2021-12-15T12:10:41.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Departamentos.xbf">
       <PackagePath>Views\Departamentos.xbf</PackagePath>
-      <Modified>2021-12-14T10:59:28.045</Modified>
+      <Modified>2021-12-15T12:10:41.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Error.xbf">
       <PackagePath>Views\Error.xbf</PackagePath>
-      <Modified>2021-12-14T10:59:28.045</Modified>
+      <Modified>2021-12-15T12:10:41.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\FotoSaludo.xbf">
       <PackagePath>Views\FotoSaludo.xbf</PackagePath>
-      <Modified>2021-12-14T10:59:28.045</Modified>
+      <Modified>2021-12-15T12:10:41.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-12-14T10:59:28.045</Modified>
+      <Modified>2021-12-15T12:10:41.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Views\Personas.xbf">
       <PackagePath>Views\Personas.xbf</PackagePath>
-      <Modified>2021-12-14T10:59:28.044</Modified>
+      <Modified>2021-12-15T12:10:41.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -154,7 +154,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_UWP\bin\x86\Debug\Core\CRUD_Personas_UWP.exe">
       <PackagePath>CRUD_Personas_UWP.exe</PackagePath>
-      <Modified>2021-12-14T10:59:29.531</Modified>
+      <Modified>2021-12-15T12:10:43.144</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
