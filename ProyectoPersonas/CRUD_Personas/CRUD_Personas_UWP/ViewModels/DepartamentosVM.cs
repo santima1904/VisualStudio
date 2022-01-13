@@ -206,7 +206,7 @@ namespace CRUD_Personas_UWP.ViewModels
             {
                 try
                 {
-                    GestoraDepartamentosBL.deletedepartamentoBL(departamentoSeleccionado);
+                    GestoraDepartamentosBL.deletedepartamentoBL(departamentoSeleccionado.Id);
                     listadoDepartamentosOfrecido.Remove(departamentoSeleccionado);
                     NotifyPropertyChanged("ListadoDepartamentosOfrecido");
                 }

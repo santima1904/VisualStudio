@@ -15,9 +15,9 @@ namespace CRUD_Personas_BL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public static int deletedepartamentoBL(Departamento departamento)
+        public static int deletedepartamentoBL(int id)
         {
-            return GestoraDepartamentosDAL.deletedepartamentoDAL(departamento);
+            return GestoraDepartamentosDAL.deletedepartamentoDAL(id);
         }
 
         /// <summary>

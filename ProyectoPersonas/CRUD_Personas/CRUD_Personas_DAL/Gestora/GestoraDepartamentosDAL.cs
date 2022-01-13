@@ -15,7 +15,7 @@ namespace CRUD_Personas_DAL.Gestora
         /// <postcondiciones>devuelve un entero con el número de filas afectadas</postcondiciones>
         /// </summary>
         /// <returns>int</returns>
-        public static int deletedepartamentoDAL(Departamento departamento)
+        public static int deletedepartamentoDAL(int id)
         {
             int resultado = 0; 
             clsMyConnection miConexion = new clsMyConnection();
@@ -24,7 +24,7 @@ namespace CRUD_Personas_DAL.Gestora
             {
                 SqlConnection connection = miConexion.getConnection();
                 SqlCommand miComando = new SqlCommand();
-                miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = departamento.Id;
+                miComando.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
                 miComando.CommandText = "EXECUTE EliminarDepartamento @id";
                 miComando.Connection = connection;
                 resultado = miComando.ExecuteNonQuery();
