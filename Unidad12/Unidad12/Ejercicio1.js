@@ -5,7 +5,5 @@ function inicializaEventos() {
 }
 
 function saludar() {
-
-    alert("Hello World");
-
+    alert("Odio javascript");
 }
