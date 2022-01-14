@@ -42,6 +42,9 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\CRUD_Personas_ASP.runtimeconfig.json
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\CRUD_Personas_ASP.pdb
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Humanizer.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\System.Net.Http.Formatting.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.CodeAnalysis.dll
@@ -49,6 +52,8 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -58,6 +63,7 @@ C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Person
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\System.Composition.AttributedModel.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\System.Composition.Convention.dll
 C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\PubTmp\Out\System.Composition.Hosting.dll

@@ -271,3 +271,10 @@ C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Per
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\ref\CRUD_Personas_ASP.dll
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\CRUD_Personas_ASP.pdb
 C:\Users\TESTER\Desktop\DAM\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\CRUD_Personas_ASP.genruntimeconfig.cache
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\bin\Release\net5.0\System.Net.Http.Formatting.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\bin\Release\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\bin\Release\net5.0\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\bin\Release\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\bin\Release\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\ProyectoPersonas\CRUD_Personas\CRUD_Personas_ASP\obj\Release\net5.0\CRUD_Personas_ASP.MvcApplicationPartsAssemblyInfo.cs
