@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm ="clr-namespace:Ejercicio2.ViewModels"
+             x:Class="Ejercicio2.MainPage">
+
+    <ContentPage.BindingContext>
+        <vm:MainPageVM/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Orientation="Vertical">
+        <Entry Margin="30" Text="{Binding Persona.Nombre, Mode=TwoWay}"/>
+        <Entry Margin="30" Text="{Binding Persona.Apellidos, Mode=TwoWay}"/>
+        <Button Margin="30" Text="Saludo" Command="{Binding CommandSaludar}"/>
+    </StackLayout>
+
+</ContentPage>
