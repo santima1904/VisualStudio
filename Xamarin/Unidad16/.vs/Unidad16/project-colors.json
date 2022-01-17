@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "67def975-7ab7-46f9-87de-649be4102cbb": {
+      "ProjectGuid": "67def975-7ab7-46f9-87de-649be4102cbb",
+      "DisplayName": "Ejercicio1UI",
+      "ColorIndex": 0
+    },
+    "c7cd59d8-2472-4f4d-95b1-518241c035fb": {
+      "ProjectGuid": "c7cd59d8-2472-4f4d-95b1-518241c035fb",
+      "DisplayName": "Entidades",
+      "ColorIndex": 1
+    },
+    "9b2c2b5b-0b79-4161-88a9-647ffc6ada50": {
+      "ProjectGuid": "9b2c2b5b-0b79-4161-88a9-647ffc6ada50",
+      "DisplayName": "Ejercicio1Entidades",
+      "ColorIndex": 2
+    },
+    "c5fe025e-919a-46f8-92ad-0e2535d5439c": {
+      "ProjectGuid": "c5fe025e-919a-46f8-92ad-0e2535d5439c",
+      "DisplayName": "Ejercicio1DAL",
+      "ColorIndex": 3
+    },
+    "d159afb2-1eb1-4e45-bfae-ca497c936a67": {
+      "ProjectGuid": "d159afb2-1eb1-4e45-bfae-ca497c936a67",
+      "DisplayName": "Ejercicio1BL",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

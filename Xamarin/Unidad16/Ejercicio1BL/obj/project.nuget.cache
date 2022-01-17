@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xB4lIT5VCxF7TyEB/KLJ1Z9H9N9CCtNm/G6+xiZKPO9AntOxZrSOSP/g+sw1VdyAxw2y2wbXnX6Q0qrpZm+FMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

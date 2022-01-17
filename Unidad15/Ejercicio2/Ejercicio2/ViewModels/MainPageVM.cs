@@ -3,6 +3,8 @@ using Ejercicio2.ViewModels.Utilidades;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace Ejercicio2.ViewModels
 {
@@ -29,15 +31,15 @@ namespace Ejercicio2.ViewModels
         }
 
         /// <summary>
-        ///     <cabecera>private void AnhadirCommand_Executed()</cabecera>
+        ///     <cabecera>private void SaludarCommand_Executed()</cabecera>
         ///     <descripcion>
-        ///         Método para realizar la función del command añadir al ser ejecutado.
-        ///         El command habilita la vista de editar
+        ///         Método para realizar la función del command saludar al ser ejecutado.
+        ///         El command lanza una ventana emergente con los datos introducidos por el usuario
         ///     </descripcion>
         /// </summary>
-         async void SaludarCommand_Executed()
+        private void SaludarCommand_Executed()
         {
-            //await DisplayAlert();
+            App.Current.MainPage.DisplayAlert("Hola",persona.Nombre+" "+persona.Apellidos,"Ok");
         }
     }
 }
