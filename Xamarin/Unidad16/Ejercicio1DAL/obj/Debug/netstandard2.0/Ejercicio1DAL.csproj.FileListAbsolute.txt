@@ -1,0 +1,13 @@
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\bin\Debug\netstandard2.0\Ejercicio1DAL.deps.json
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\bin\Debug\netstandard2.0\Ejercicio1DAL.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\bin\Debug\netstandard2.0\Ejercicio1DAL.pdb
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\bin\Debug\netstandard2.0\Ejercicio1Entidades.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\bin\Debug\netstandard2.0\Ejercicio1Entidades.pdb
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.csproj.AssemblyReference.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.AssemblyInfoInputs.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.AssemblyInfo.cs
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.csproj.CoreCompileInputs.cache
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.csproj.CopyComplete
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.dll
+C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1DAL\obj\Debug\netstandard2.0\Ejercicio1DAL.pdb

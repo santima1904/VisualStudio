@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj": {}
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj",
         "projectName": "Ejercicio1BL",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj",
-        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\obj\\",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj",
+        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -34,11 +32,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj": {
-                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj"
+              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj": {
+                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj"
               },
-              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
-                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj"
+              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
+                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj"
               }
             }
           }
@@ -74,24 +72,22 @@
         }
       }
     },
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj",
         "projectName": "Ejercicio1DAL",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj",
-        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\obj\\",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\Ejercicio1DAL.csproj",
+        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -104,8 +100,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
-                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj"
+              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
+                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj"
               }
             }
           }
@@ -125,6 +121,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -141,24 +141,22 @@
         }
       }
     },
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj",
         "projectName": "Ejercicio1Entidades",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj",
-        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\obj\\",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj",
+        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -204,26 +202,24 @@
         }
       }
     },
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj",
         "projectName": "Ejercicio1UI.UWP",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj",
-        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\obj\\",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\Ejercicio1UI.UWP.csproj",
+        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.16299"
@@ -235,8 +231,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj": {
-                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj"
+              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj": {
+                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj"
               }
             }
           }
@@ -289,24 +285,22 @@
         }
       }
     },
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj",
         "projectName": "Ejercicio1UI",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj",
-        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\obj\\",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\Ejercicio1UI.csproj",
+        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1UI\\Ejercicio1UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -319,11 +313,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj": {
-                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj"
+              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj": {
+                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1BL\\Ejercicio1BL.csproj"
               },
-              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
-                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj"
+              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj": {
+                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj"
               }
             }
           }

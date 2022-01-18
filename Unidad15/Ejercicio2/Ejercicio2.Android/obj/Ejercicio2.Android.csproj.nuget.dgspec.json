@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj": {}
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj",
         "projectName": "Ejercicio2.Android",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj",
-        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\obj\\",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\Ejercicio2.Android.csproj",
+        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid12.0"
@@ -34,8 +32,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj": {
-                "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj"
+              "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj": {
+                "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj"
               }
             }
           }
@@ -56,24 +54,22 @@
         }
       }
     },
-    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj": {
+    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
+        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
         "projectName": "Ejercicio2",
-        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
-        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\obj\\",
+        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
+        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Unidad15\\Ejercicio2\\Ejercicio2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

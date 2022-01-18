@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K1SdYKJxtAjAvfihmh3b/JIxIclULYjXVrEDDKZYfjib6n4VPJcBxNm+qKfcQVZnx7fEy1OtFxIMkGKY6728MQ==",
+  "dgSpecHash": "H1KpCTsMDYrKBWXKLxB7CT//LioKysR8Ja5EkQfyBYzjRyBV2RvNPBYUuepNSaZeJdM1Hr44gTswl80egCvKyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj",
+  "projectFilePath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\Xamarin\\Unidad16\\Ejercicio1Entidades\\Ejercicio1Entidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\TESTER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\TESTER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -19,4 +19,8 @@
     <ProjectReference Include="..\..\Ejercicio1BL\Ejercicio1BL.csproj" />
     <ProjectReference Include="..\..\Ejercicio1Entidades\Ejercicio1Entidades.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>
