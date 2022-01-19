@@ -8,3 +8,13 @@ C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\ob
 C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.csproj.CoreCompileInputs.cache
 C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.dll
 C:\Users\TESTER\Desktop\DAM\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.pdb
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\bin\Debug\netstandard2.0\Ejercicio1Entidades.deps.json
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\bin\Debug\netstandard2.0\Ejercicio1Entidades.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\bin\Debug\netstandard2.0\Ejercicio1Entidades.pdb
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.csproj.AssemblyReference.cache
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.AssemblyInfoInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.AssemblyInfo.cs
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.csproj.CoreCompileInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.dll
+C:\Users\smartinez\Desktop\GithubSanti\VisualStudio\Xamarin\Unidad16\Ejercicio1Entidades\obj\Debug\netstandard2.0\Ejercicio1Entidades.pdb

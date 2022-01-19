@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="CRUD_Personas_UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CRUD_Personas_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FEF5E7">
+
+    <Page.Resources>
+        <SolidColorBrush x:Key="NavigationViewExpandedPaneBackground" Color="#FAD7A0"/>
+        <SolidColorBrush x:Key="NavigationViewDefaultPaneBackground" Color="#FAD7A0" />
+    </Page.Resources>
+    
+    <RelativePanel>
+        <NavigationView x:ConnectionId='2' Name="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='3' x:Name="nvwPersonas" Icon="Contact" Content="Personas" Tag="Personas"                                   />
+                <NavigationViewItem x:ConnectionId='4' x:Name="nvwDepartamentos" Icon="Manage" Content="Departamentos" Tag="Departamentos"                                   />
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='5' x:Name="contentFrame" RelativePanel.RightOf="navigationview" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" />
+        </NavigationView>
+    </RelativePanel>
+</Page>
+
