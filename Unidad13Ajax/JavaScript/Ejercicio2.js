@@ -1,7 +1,7 @@
 ﻿window.onload = InicializaEventos;
 
 function InicializaEventos() {
-    document.getElementById("btnsaludar").addEventListener("click", saludo, false)
+    document.getElementById("btnapellido").addEventListener("click", saludo, false)
 }
 
 function saludo() {
