@@ -12,6 +12,9 @@ function saludo() {
             var arraypersonas = JSON.parse(miLlamada.responseText);
             document.getElementById("divapellido").innerHTML = arraypersonas[0].apellidos;
         }
+        else {
+            document.getElementById("divapellido").innerHTML = "Cargando persona...";
+        }
     }
     miLlamada.send();
 }
