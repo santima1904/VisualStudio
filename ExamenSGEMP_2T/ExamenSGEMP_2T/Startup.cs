@@ -37,6 +37,8 @@ namespace ExamenSGEMP_2T
                 app.UseExceptionHandler("/Error");
             }
 
+            app.UseDefaultFiles();
+
             app.UseStaticFiles();
 
             app.UseRouting();
