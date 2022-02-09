@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "60/BmZbV6a+enFv6icq1oTTejOuFiC+U5iMr2NJ4RB2ijdB+SXbI96IbXXhYjvioVzk9r/W/0ilc0nyUewCJQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TESTER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
