@@ -31,10 +31,10 @@ namespace CRUD_Personas_DAL.Conexion
 
         public clsMyConnection()
         {           
-            this.server = "localhost";//para clase 107-12\\SQLEXPRESS
+            this.server = "107-12\\SQLEXPRESS";//para clase 107-12\\SQLEXPRESS
             this.dataBase = "FrayGuillermo";
-            this.user = "Santi";//para mañana prueba            
-            this.pass = "mitesoro";//para mañana 123
+            this.user = "prueba";//para mañana prueba            
+            this.pass = "123";//para mañana 123
         }
         //Con parámetros por si quisiera cambiar las conexiones
         public clsMyConnection(String server, String database, String user, String pass)

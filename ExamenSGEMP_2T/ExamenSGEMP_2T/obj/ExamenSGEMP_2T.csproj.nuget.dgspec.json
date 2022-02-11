@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj": {}
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj": {
+    "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj",
+        "projectUniqueName": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj",
         "projectName": "ExamenSGEMP_2T",
-        "projectPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj",
-        "packagesPath": "C:\\Users\\TESTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TESTER\\Desktop\\DAM\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\obj\\",
+        "projectPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\ExamenSGEMP_2T.csproj",
+        "packagesPath": "C:\\Users\\smartinez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\VisualStudio\\ExamenSGEMP_2T\\ExamenSGEMP_2T\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\TESTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -59,12 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

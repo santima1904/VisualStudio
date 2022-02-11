@@ -15,7 +15,7 @@ namespace ExamenSGEMP_2T.Controlers
     public class PlantasController : ControllerBase
     {
         // GET: api/<PlantaController>/id
-        [HttpGet]
+        [HttpGet("{idCategoria}")]
         public ObjectResult GetListadoCategoria(int idCategoria)
         {
             List<clsPlanta> plantas = new List<clsPlanta>();
@@ -76,6 +76,7 @@ namespace ExamenSGEMP_2T.Controlers
             }
             catch (Exception)
             {
+                result.Value = 0;
                 result.StatusCode = (int)HttpStatusCode.InternalServerError;
             }
 
